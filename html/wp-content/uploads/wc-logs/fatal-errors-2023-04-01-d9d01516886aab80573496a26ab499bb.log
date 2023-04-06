@@ -1,0 +1,34 @@
+2023-04-01T18:55:32+00:00 CRITICAL syntax error, unexpected token ":", expecting "]" в /var/www/html/wp-content/themes/woo-vanilla/page.php на строке 44
+
+2023-04-01T19:02:23+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on null in /var/www/html/wp-content/themes/woo-vanilla/views/public/components/products/product-slider.php:9
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(785): require()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/sliders/products-slider.php(18): get_template_part('views/public/co...', 'Array')
+#4 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#5 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#6 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#7 /var/www/html/wp-content/themes/woo-vanilla/page.php(46): get_template_part('views/public/co...', 'with-delivery', Array)
+#8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#10 /var/www/html/index.php(17): require('/var/www/html/w...')
+#11 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/views/public/components/products/product-slider.php на строке 9
+
+2023-04-01T19:02:49+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on null in /var/www/html/wp-content/themes/woo-vanilla/views/public/components/products/product-slider.php:9
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(785): require()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/sliders/products-slider.php(18): get_template_part('views/public/co...', 'Array')
+#4 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#5 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#6 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#7 /var/www/html/wp-content/themes/woo-vanilla/page.php(46): get_template_part('views/public/co...', 'with-delivery', Array)
+#8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#10 /var/www/html/index.php(17): require('/var/www/html/w...')
+#11 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/views/public/components/products/product-slider.php на строке 9
+

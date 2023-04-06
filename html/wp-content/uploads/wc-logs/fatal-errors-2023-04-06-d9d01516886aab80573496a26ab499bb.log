@@ -1,0 +1,80 @@
+2023-04-06T10:39:32+00:00 CRITICAL Uncaught Error: Failed opening required 'inc/storefront-template-functions.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/woo-vanilla/functions.php:25
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/functions.php на строке 25
+
+2023-04-06T10:39:37+00:00 CRITICAL Uncaught Error: Failed opening required 'inc/storefront-template-functions.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/woo-vanilla/functions.php:25
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/functions.php на строке 25
+
+2023-04-06T10:41:19+00:00 CRITICAL Uncaught Error: Failed opening required 'inc/storefront-template-functions.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/woo-vanilla/functions.php:25
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/functions.php на строке 25
+
+2023-04-06T10:41:20+00:00 CRITICAL Uncaught Error: Failed opening required 'inc/storefront-template-functions.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/woo-vanilla/functions.php:25
+Stack trace:
+#0 /var/www/html/wp-settings.php(591): include()
+#1 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/functions.php на строке 25
+
+2023-04-06T11:02:35+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in /var/www/html/wp-content/themes/woo-vanilla/views/public/components/product/product-catalog-actions.php:3
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(785): require()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/products/product.php(59): get_template_part('views/public/co...', '', Array)
+#4 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#5 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#6 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#7 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/product-lists/product-list-catalog.php(13): get_template_part('views/public/co...', '', Array)
+#8 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#10 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(38): get_template_part('views/public/co...', '', Array)
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/views/public/components/product/product-catalog-actions.php на строке 3
+
+2023-04-06T11:03:59+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in /var/www/html/wp-content/themes/woo-vanilla/views/public/components/product/product-catalog-actions.php:3
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(785): require()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/products/product.php(59): get_template_part('views/public/co...', '', Array)
+#4 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#5 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#6 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#7 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/product-lists/product-list-catalog.php(13): get_template_part('views/public/co...', '', Array)
+#8 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#10 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(38): get_template_part('views/public/co...', '', Array)
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/views/public/components/product/product-catalog-actions.php на строке 3
+

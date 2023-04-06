@@ -1,0 +1,86 @@
+2023-03-13T16:15:18+00:00 CRITICAL Uncaught Error: Call to undefined function svg() in /var/www/html/wp-content/themes/awps/header.php:43
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(783): require_once()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/awps/index.php(15): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-content/themes/awps/header.php на строке 43
+
+2023-03-13T16:15:25+00:00 CRITICAL Uncaught Error: Call to undefined function svg() in /var/www/html/wp-content/themes/awps/header.php:43
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(783): require_once()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/awps/index.php(15): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-content/themes/awps/header.php на строке 43
+
+2023-03-13T16:15:50+00:00 CRITICAL Uncaught Error: Call to undefined function svg() in /var/www/html/wp-content/themes/awps/header.php:43
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(783): require_once()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/awps/index.php(15): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-content/themes/awps/header.php на строке 43
+
+2023-03-13T16:51:29+00:00 CRITICAL Uncaught Error: Call to undefined function svg() in /var/www/html/wp-content/themes/awps/header.php:43
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(783): require_once()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/awps/index.php(15): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-content/themes/awps/header.php на строке 43
+
+2023-03-13T16:52:43+00:00 CRITICAL Uncaught Error: Call to undefined function svg() in /var/www/html/wp-content/themes/awps/header.php:43
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(783): require_once()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/awps/index.php(15): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-content/themes/awps/header.php на строке 43
+
+2023-03-13T16:52:51+00:00 CRITICAL Uncaught Error: Call to undefined function svg() in /var/www/html/wp-content/themes/awps/header.php:43
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(783): require_once()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/awps/index.php(15): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-content/themes/awps/header.php на строке 43
+
+2023-03-13T16:54:49+00:00 CRITICAL Uncaught Error: Call to undefined function svg() in /var/www/html/wp-content/themes/awps/header.php:43
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(783): require_once()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/awps/index.php(15): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-content/themes/awps/header.php на строке 43
+
+2023-03-13T17:25:41+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /var/www/html/wp-includes/post.php на строке 2288
+

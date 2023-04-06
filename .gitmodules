@@ -1,0 +1,3 @@
+[submodule "woo-vanilla"]
+	path = woo-vanilla
+	url = https://github.com/ArtemAnonov/woo-vanilla

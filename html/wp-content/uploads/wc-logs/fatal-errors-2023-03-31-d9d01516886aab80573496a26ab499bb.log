@@ -1,0 +1,216 @@
+2023-03-31T08:57:52+00:00 CRITICAL Uncaught Error: Class "Awps\Core\WalkerCatalog" not found in /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog/header-menu-catalog-items.php:9
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(785): require()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog-mobile.php(11): get_template_part('views/public/co...')
+#4 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#5 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#6 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#7 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/offcanvases-modals.php(2): get_template_part('views/public/co...')
+#8 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#10 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /var/www/html/wp-content/themes/woo-vanilla/footer.php(26): get_template_part('views/public/co...')
+#12 /var/www/html/wp-includes/template.php(783): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#14 /var/www/html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#15 /var/www/html/wp-content/themes/woo-vanilla/page.php(71): get_footer()
+#16 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#17 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#18 /var/www/html/index.php(17): require('/var/www/html/w...')
+#19 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog/header-menu-catalog-items.php на строке 9
+
+2023-03-31T09:00:32+00:00 CRITICAL Uncaught Error: Class "Awps\Core\WalkerCatalog" not found in /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog/header-menu-catalog-items.php:9
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(785): require()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog-mobile.php(11): get_template_part('views/public/co...')
+#4 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#5 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#6 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#7 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/offcanvases-modals.php(2): get_template_part('views/public/co...')
+#8 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#10 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /var/www/html/wp-content/themes/woo-vanilla/footer.php(26): get_template_part('views/public/co...')
+#12 /var/www/html/wp-includes/template.php(783): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#14 /var/www/html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#15 /var/www/html/wp-content/themes/woo-vanilla/page.php(71): get_footer()
+#16 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#17 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#18 /var/www/html/index.php(17): require('/var/www/html/w...')
+#19 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog/header-menu-catalog-items.php на строке 9
+
+2023-03-31T09:00:43+00:00 CRITICAL Uncaught Error: Class "Awps\Core\WalkerCatalog" not found in /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog/header-menu-catalog-items.php:9
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(785): require()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog-mobile.php(11): get_template_part('views/public/co...')
+#4 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#5 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#6 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#7 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/offcanvases-modals.php(2): get_template_part('views/public/co...')
+#8 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#10 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /var/www/html/wp-content/themes/woo-vanilla/footer.php(26): get_template_part('views/public/co...')
+#12 /var/www/html/wp-includes/template.php(783): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#14 /var/www/html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#15 /var/www/html/wp-content/themes/woo-vanilla/page.php(71): get_footer()
+#16 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#17 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#18 /var/www/html/index.php(17): require('/var/www/html/w...')
+#19 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog/header-menu-catalog-items.php на строке 9
+
+2023-03-31T09:00:56+00:00 CRITICAL Uncaught Error: Class "Awps\Core\WalkerCatalog" not found in /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog/header-menu-catalog-items.php:9
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(785): require()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog-mobile.php(11): get_template_part('views/public/co...')
+#4 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#5 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#6 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#7 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/offcanvases-modals.php(2): get_template_part('views/public/co...')
+#8 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#10 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /var/www/html/wp-content/themes/woo-vanilla/footer.php(26): get_template_part('views/public/co...')
+#12 /var/www/html/wp-includes/template.php(783): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#14 /var/www/html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#15 /var/www/html/wp-content/themes/woo-vanilla/page.php(71): get_footer()
+#16 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#17 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#18 /var/www/html/index.php(17): require('/var/www/html/w...')
+#19 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog/header-menu-catalog-items.php на строке 9
+
+2023-03-31T09:00:59+00:00 CRITICAL Uncaught Error: Class "Awps\Core\WalkerCatalog" not found in /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog/header-menu-catalog-items.php:9
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(785): require()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog-mobile.php(11): get_template_part('views/public/co...')
+#4 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#5 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#6 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#7 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/offcanvases-modals.php(2): get_template_part('views/public/co...')
+#8 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#10 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /var/www/html/wp-content/themes/woo-vanilla/footer.php(26): get_template_part('views/public/co...')
+#12 /var/www/html/wp-includes/template.php(783): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#14 /var/www/html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#15 /var/www/html/wp-content/themes/woo-vanilla/page.php(71): get_footer()
+#16 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#17 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#18 /var/www/html/index.php(17): require('/var/www/html/w...')
+#19 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog/header-menu-catalog-items.php на строке 9
+
+2023-03-31T09:04:10+00:00 CRITICAL Uncaught Error: Class "Awps\Core\WalkerCatalog" not found in /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog/header-menu-catalog-items.php:9
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(785): require()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog-mobile.php(11): get_template_part('views/public/co...')
+#4 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#5 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#6 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#7 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/offcanvases-modals.php(2): get_template_part('views/public/co...')
+#8 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#10 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /var/www/html/wp-content/themes/woo-vanilla/footer.php(26): get_template_part('views/public/co...')
+#12 /var/www/html/wp-includes/template.php(783): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#14 /var/www/html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#15 /var/www/html/wp-content/themes/woo-vanilla/page.php(71): get_footer()
+#16 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#17 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#18 /var/www/html/index.php(17): require('/var/www/html/w...')
+#19 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog/header-menu-catalog-items.php на строке 9
+
+2023-03-31T09:04:47+00:00 CRITICAL Uncaught Error: Class "Awps\Core\WalkerCatalog" not found in /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog/header-menu-catalog-items.php:9
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(785): require()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog-mobile.php(11): get_template_part('views/public/co...')
+#4 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#5 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#6 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#7 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/offcanvases-modals.php(2): get_template_part('views/public/co...')
+#8 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#10 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /var/www/html/wp-content/themes/woo-vanilla/footer.php(26): get_template_part('views/public/co...')
+#12 /var/www/html/wp-includes/template.php(783): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#14 /var/www/html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#15 /var/www/html/wp-content/themes/woo-vanilla/page.php(71): get_footer()
+#16 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#17 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#18 /var/www/html/index.php(17): require('/var/www/html/w...')
+#19 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog/header-menu-catalog-items.php на строке 9
+
+2023-03-31T09:04:48+00:00 CRITICAL Uncaught Error: Class "Awps\Core\WalkerCatalog" not found in /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog/header-menu-catalog-items.php:9
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(785): require()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog-mobile.php(11): get_template_part('views/public/co...')
+#4 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#5 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#6 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#7 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/offcanvases-modals.php(2): get_template_part('views/public/co...')
+#8 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#10 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /var/www/html/wp-content/themes/woo-vanilla/footer.php(26): get_template_part('views/public/co...')
+#12 /var/www/html/wp-includes/template.php(783): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#14 /var/www/html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#15 /var/www/html/wp-content/themes/woo-vanilla/page.php(71): get_footer()
+#16 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#17 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#18 /var/www/html/index.php(17): require('/var/www/html/w...')
+#19 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog/header-menu-catalog-items.php на строке 9
+
+2023-03-31T09:04:55+00:00 CRITICAL Uncaught Error: Class "Awps\Core\WalkerCatalog" not found in /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog/header-menu-catalog-items.php:9
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(785): require()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog-mobile.php(11): get_template_part('views/public/co...')
+#4 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#5 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#6 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#7 /var/www/html/wp-content/themes/woo-vanilla/views/public/components/offcanvases-modals.php(2): get_template_part('views/public/co...')
+#8 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', false, Array)
+#10 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /var/www/html/wp-content/themes/woo-vanilla/footer.php(26): get_template_part('views/public/co...')
+#12 /var/www/html/wp-includes/template.php(783): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#14 /var/www/html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#15 /var/www/html/wp-content/themes/woo-vanilla/page.php(71): get_footer()
+#16 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#17 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#18 /var/www/html/index.php(17): require('/var/www/html/w...')
+#19 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/views/public/components/header/header-menu-catalog/header-menu-catalog-items.php на строке 9
+

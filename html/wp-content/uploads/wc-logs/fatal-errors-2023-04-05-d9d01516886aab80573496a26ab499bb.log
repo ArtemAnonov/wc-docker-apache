@@ -1,0 +1,105 @@
+2023-04-05T09:51:13+00:00 CRITICAL Uncaught Error: Class "WooCommerce\CommonFunctions" not found in /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php:69
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php(55): Awps\Init::instantiate('WooCommerce\\Com...')
+#1 /var/www/html/wp-content/themes/woo-vanilla/functions.php(21): Awps\Init::register_services()
+#2 /var/www/html/wp-settings.php(591): include('/var/www/html/w...')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php на строке 69
+
+2023-04-05T09:51:16+00:00 CRITICAL Uncaught Error: Class "WooCommerce\CommonFunctions" not found in /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php:69
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php(55): Awps\Init::instantiate('WooCommerce\\Com...')
+#1 /var/www/html/wp-content/themes/woo-vanilla/functions.php(21): Awps\Init::register_services()
+#2 /var/www/html/wp-settings.php(591): include('/var/www/html/w...')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php на строке 69
+
+2023-04-05T10:00:51+00:00 CRITICAL Uncaught Error: Call to undefined method Awps\WooCommerce\TemplateHooks::template_functions() in /var/www/html/wp-content/themes/woo-vanilla/inc/WooCommerce/TemplateHooks.php:20
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/inc/WooCommerce/TemplateHooks.php(13): Awps\WooCommerce\TemplateHooks->homepage()
+#1 /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php(67): Awps\WooCommerce\TemplateHooks->__construct()
+#2 /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php(53): Awps\Init::instantiate('Awps\\WooCommerc...')
+#3 /var/www/html/wp-content/themes/woo-vanilla/functions.php(21): Awps\Init::register_services()
+#4 /var/www/html/wp-settings.php(591): include('/var/www/html/w...')
+#5 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/WooCommerce/TemplateHooks.php на строке 20
+
+2023-04-05T10:01:28+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, first array member is not a valid class name or object in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(32): do_action('homepage')
+#3 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-05T10:01:51+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, second array member is not a valid method in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(32): do_action('homepage')
+#3 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#4 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#5 /var/www/html/index.php(17): require('/var/www/html/w...')
+#6 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-05T10:16:52+00:00 CRITICAL Uncaught Error: Class "Awps\WooVanilla\CommonFunctions" not found in /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php:67
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php(53): Awps\Init::instantiate('Awps\\WooVanilla...')
+#1 /var/www/html/wp-content/themes/woo-vanilla/functions.php(21): Awps\Init::register_services()
+#2 /var/www/html/wp-settings.php(591): include('/var/www/html/w...')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php на строке 67
+
+2023-04-05T10:18:53+00:00 CRITICAL Uncaught Error: Class "Awps\WooVanilla\CommonFunctions" not found in /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php:67
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php(53): Awps\Init::instantiate('Awps\\WooVanilla...')
+#1 /var/www/html/wp-content/themes/woo-vanilla/functions.php(21): Awps\Init::register_services()
+#2 /var/www/html/wp-settings.php(591): include('/var/www/html/w...')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php на строке 67
+
+2023-04-05T10:19:20+00:00 CRITICAL Uncaught Error: Class "Awps\WooVanilla\CommonFunctions" not found in /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php:67
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php(53): Awps\Init::instantiate('Awps\\WooVanilla...')
+#1 /var/www/html/wp-content/themes/woo-vanilla/functions.php(21): Awps\Init::register_services()
+#2 /var/www/html/wp-settings.php(591): include('/var/www/html/w...')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php на строке 67
+
+2023-04-05T10:19:21+00:00 CRITICAL Uncaught Error: Class "Awps\WooVanilla\CommonFunctions" not found in /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php:67
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php(53): Awps\Init::instantiate('Awps\\WooVanilla...')
+#1 /var/www/html/wp-content/themes/woo-vanilla/functions.php(21): Awps\Init::register_services()
+#2 /var/www/html/wp-settings.php(591): include('/var/www/html/w...')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/Init.php на строке 67
+
