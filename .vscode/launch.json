@@ -21,6 +21,7 @@
       "name": "F",
       "port": 9222,
       "enableContentValidation": false,
+      // "webRoot": "${workspaceFolder}/html/wp-content/plugins/side-cart-woocommerce",
       "webRoot": "${workspaceFolder}/html/wp-content/themes/woo-vanilla/",
       // "urlFilter": "http://localhost:*",
       "url": "http://localhost",

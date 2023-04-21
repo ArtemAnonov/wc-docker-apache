@@ -48,18 +48,12 @@ services:
       context: ./configuration/server
     volumes:
       - ./html/:/var/www/html/
-      # - ./html/wp-content/plugins:/var/www/html/wp-content/plugins
-      # - ./html/wp-content/themes/storefront:/var/www/html/wp-content/themes/storefront
-      # - ./html/wp-content/uploads:/var/www/html/wp-content/uploads
-
       - ./configuration/server/php/conf.d/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
-      # - ./html/wp-config.php:/var/www/html/wp-config.php
 
-
-      # - ./html/wp-content/wp-includes:/var/www/html/wp-content/wp-includes
-      # - ./html/.htaccess:/var/www/html/.htaccess
-
-
+      - ./vendor/:/var/www/vendor/
+      # - ./phpcs.xml:/var/www/phpcs.xml
+      - ./composer.json:/var/www/composer.json
+      - ./composer.lock:/var/www/composer.lock
     env_file:
       ./html/.env
     ports:

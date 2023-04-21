@@ -1,0 +1,32 @@
+2023-04-21T10:22:36+00:00 CRITICAL syntax error, unexpected end of file в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 78
+
+2023-04-21T10:22:38+00:00 CRITICAL syntax error, unexpected end of file в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 78
+
+2023-04-21T10:22:40+00:00 CRITICAL syntax error, unexpected end of file в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 78
+
+2023-04-21T10:22:41+00:00 CRITICAL syntax error, unexpected end of file в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 78
+
+2023-04-21T14:01:33+00:00 CRITICAL syntax error, unexpected identifier "add_action" в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 73
+
+2023-04-21T14:01:37+00:00 CRITICAL syntax error, unexpected identifier "add_action" в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 73
+
+2023-04-21T14:02:11+00:00 CRITICAL syntax error, unexpected identifier "add_action" в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 73
+
+2023-04-21T14:02:14+00:00 CRITICAL syntax error, unexpected identifier "add_action" в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 73
+
+2023-04-21T14:03:48+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes) в /var/www/html/wp-includes/functions.php на строке 649
+
+2023-04-21T14:41:52+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_template_part() in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php:429
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-single-product.php(58): woovanilla_template_ordering_info()
+#1 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#3 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/single-product.php(28): wc_get_template_part('content', 'single-product')
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 429
+
+2023-04-21T14:43:00+00:00 CRITICAL Cannot redeclare wc_get_template() (previously declared in /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php:296) в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php на строке 32
+

@@ -1,0 +1,114 @@
+2023-04-13T11:19:07+00:00 CRITICAL Uncaught Error: Call to a member function get_variation_attributes() on null in /var/www/html/wp-content/themes/woo-vanilla/templates/loop/loop-product-catalog-actions.php:3
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/wp-content/themes/woo-vanilla/functions.php(29): wc_get_template('loop/loop-produ...', Array, '', '/var/www/html/w...')
+#2 /var/www/html/wp-content/themes/woo-vanilla/inc/template-functions.php(182): wc_get_template('loop/loop-produ...', Array)
+#3 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_before_shop_loop_item_actions('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-product.php(50): do_action('woovanilla_befo...')
+#7 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#8 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#9 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(688): wc_get_template_part('content', 'product')
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(107): WC_Shortcode_Products->product_loop()
+#11 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#12 /var/www/html/wp-content/themes/woo-vanilla/functions.php(40): WC_Shortcodes::products(Array, NULL, 'products')
+#13 /var/www/html/wp-content/themes/woo-vanilla/inc/template-functions.php(127): woovanilla_do_shortcode('products', Array)
+#14 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_catalog_products(Array)
+#15 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#16 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#17 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(21): do_action('homepage')
+#18 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#19 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#20 /var/www/html/index.php(17): require('/var/www/html/w...')
+#21 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/templates/loop/loop-product-catalog-actions.php на строке 3
+
+2023-04-13T20:54:57+00:00 CRITICAL Uncaught Error: Call to undefined function svg() in /var/www/html/wp-content/themes/woo-vanilla/header.php:28
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(783): require_once()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(16): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/header.php на строке 28
+
+2023-04-13T20:55:35+00:00 CRITICAL Uncaught Error: Call to undefined function svg() in /var/www/html/wp-content/themes/woo-vanilla/header.php:28
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(783): require_once()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(16): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/header.php на строке 28
+
+2023-04-13T21:35:32+00:00 CRITICAL Uncaught Error: Call to undefined function svg() in /var/www/html/wp-content/themes/woo-vanilla/header.php:28
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(783): require_once()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(16): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/header.php на строке 28
+
+2023-04-13T21:48:49+00:00 CRITICAL Uncaught Error: Call to a member function get_variation_attributes() on null in /var/www/html/wp-content/themes/woo-vanilla/templates/loop/loop-product-catalog-actions.php:3
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/wp-content/themes/woo-vanilla/functions.php(30): wc_get_template('loop/loop-produ...', Array, '', '/var/www/html/w...')
+#2 /var/www/html/wp-content/themes/woo-vanilla/inc/template-functions.php(182): wc_get_template('loop/loop-produ...', Array)
+#3 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_before_shop_loop_item_actions('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-product.php(50): do_action('woovanilla_befo...')
+#7 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#8 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#9 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(688): wc_get_template_part('content', 'product')
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(107): WC_Shortcode_Products->product_loop()
+#11 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#12 /var/www/html/wp-content/themes/woo-vanilla/functions.php(47): WC_Shortcodes::products(Array, NULL, 'products')
+#13 /var/www/html/wp-content/themes/woo-vanilla/inc/template-functions.php(127): woovanilla_do_shortcode('products', Array)
+#14 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_catalog_products(Array)
+#15 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#16 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#17 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(21): do_action('homepage')
+#18 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#19 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#20 /var/www/html/index.php(17): require('/var/www/html/w...')
+#21 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/templates/loop/loop-product-catalog-actions.php на строке 3
+
+2023-04-13T22:24:52+00:00 CRITICAL Uncaught Error: Call to a member function get_variation_attributes() on null in /var/www/html/wp-content/themes/woo-vanilla/templates/loop/loop-product-catalog-actions.php:9
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/wp-content/themes/woo-vanilla/functions.php(30): wc_get_template('loop/loop-produ...', Array, '', '/var/www/html/w...')
+#2 /var/www/html/wp-content/themes/woo-vanilla/inc/template-functions.php(182): wc_get_template('loop/loop-produ...', Array)
+#3 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_before_shop_loop_item_actions('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-product.php(54): do_action('woovanilla_befo...')
+#7 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#8 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#9 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(688): wc_get_template_part('content', 'product')
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(107): WC_Shortcode_Products->product_loop()
+#11 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#12 /var/www/html/wp-content/themes/woo-vanilla/functions.php(47): WC_Shortcodes::products(Array, NULL, 'products')
+#13 /var/www/html/wp-content/themes/woo-vanilla/inc/template-functions.php(127): woovanilla_do_shortcode('products', Array)
+#14 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_catalog_products(Array)
+#15 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#16 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#17 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(21): do_action('homepage')
+#18 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#19 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#20 /var/www/html/index.php(17): require('/var/www/html/w...')
+#21 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/templates/loop/loop-product-catalog-actions.php на строке 9
+

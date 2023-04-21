@@ -1,0 +1,16 @@
+{
+    "name": "abg/phpcs",
+    "require": {},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*",
+        "wp-coding-standards/wpcs": "2.3.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+        "wptrt/wpthemereview": "0.2.1",
+        "phpcompatibility/phpcompatibility-wp": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

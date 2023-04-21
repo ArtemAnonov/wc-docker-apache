@@ -78,3 +78,468 @@ Stack trace:
 #15 {main}
   thrown в /var/www/html/wp-content/themes/woo-vanilla/views/public/components/product/product-catalog-actions.php на строке 3
 
+2023-04-06T19:44:41+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/html/wp-content/plugins/woovanilla/woovanilla.php:47
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woovanilla/woovanilla.php(51): WooVanilla::init()
+#1 /var/www/html/wp-settings.php(453): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#5 {main}
+  thrown в /var/www/html/wp-content/plugins/woovanilla/woovanilla.php на строке 47
+
+2023-04-06T19:45:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T19:45:06+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T19:45:38+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T19:45:40+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T19:45:49+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T19:51:31+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T19:51:33+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T19:51:34+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T19:52:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T19:52:48+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T19:53:51+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T19:53:53+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T19:54:41+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T19:55:50+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/includes/woovanilla/wc-shortcodes-wv.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woovanilla/woovanilla.php:36
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): WooVanilla::autoloader('WooVanilla\\WC_S...')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(623): do_action('init')
+#4 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+
+Next TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WooVanilla\WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T19:55:52+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/includes/woovanilla/wc-shortcodes-wv.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woovanilla/woovanilla.php:36
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): WooVanilla::autoloader('WooVanilla\\WC_S...')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(623): do_action('init')
+#4 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+
+Next TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WooVanilla\WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T19:56:42+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/includes/woovanilla/wc-shortcodes-wv.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woovanilla/woovanilla.php:36
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): WooVanilla::autoloader('WooVanilla\\WC_S...')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(623): do_action('init')
+#4 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#7 {main}
+
+Next TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WooVanilla\WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T20:01:37+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/includes/woovanilla/wc-shortcodes-wv.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woovanilla/woovanilla.php:36
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): WooVanilla::autoloader('WooVanilla\\WC_S...')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(623): do_action('init')
+#4 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#7 {main}
+
+Next TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WooVanilla\WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T20:01:42+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/includes/wc-shortcodes-wv.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woovanilla/woovanilla.php:36
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): WooVanilla::autoloader('WooVanilla\\WC_S...')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(623): do_action('init')
+#4 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+
+Next TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WooVanilla\WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T20:01:44+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/includes/wc-shortcodes-wv.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woovanilla/woovanilla.php:36
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): WooVanilla::autoloader('WooVanilla\\WC_S...')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(623): do_action('init')
+#4 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+
+Next TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WooVanilla\WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T20:01:45+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/includes/wc-shortcodes-wv.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woovanilla/woovanilla.php:36
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): WooVanilla::autoloader('WooVanilla\\WC_S...')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(623): do_action('init')
+#4 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+
+Next TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WooVanilla\WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T20:02:26+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/woovanilla/includes/wc-shortcodes-wv.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woovanilla/woovanilla.php:36
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): WooVanilla::autoloader('WooVanilla\\WC_S...')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(623): do_action('init')
+#4 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+
+Next TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WooVanilla\WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T20:02:27+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/woovanilla/includes/wc-shortcodes-wv.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woovanilla/woovanilla.php:36
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): WooVanilla::autoloader('WooVanilla\\WC_S...')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(623): do_action('init')
+#4 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+
+Next TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WooVanilla\WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T20:03:40+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/woovanilla/includes/wc-shortcodes-wv.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woovanilla/woovanilla.php:40
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): WooVanilla::autoloader('WooVanilla\\WC_S...')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(623): do_action('init')
+#4 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#7 {main}
+
+Next TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WooVanilla\WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T20:04:48+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/class-woovanilla/includes/wc-shortcodes-wv.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woovanilla/woovanilla.php:44
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): WooVanilla::autoloader('WooVanilla\\WC_S...')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(623): do_action('init')
+#4 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+
+Next TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WooVanilla\WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T20:04:50+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/class-woovanilla/includes/wc-shortcodes-wv.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woovanilla/woovanilla.php:44
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): WooVanilla::autoloader('WooVanilla\\WC_S...')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(623): do_action('init')
+#4 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+
+Next TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WooVanilla\WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-06T20:05:42+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/class-woovanilla/includes/wc-shortcodes-wv.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woovanilla/woovanilla.php:44
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): WooVanilla::autoloader('WooVanilla\\WC_S...')
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(623): do_action('init')
+#4 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#7 {main}
+
+Next TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "WooVanilla\WC_Shortcodes_WV" not found in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(623): do_action('init')
+#3 /var/www/html/wp-config.php(175): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+

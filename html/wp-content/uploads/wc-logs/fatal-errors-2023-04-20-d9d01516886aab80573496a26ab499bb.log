@@ -1,0 +1,325 @@
+2023-04-20T08:05:04+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "tinvwl_view_addto_htmlloop" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-product.php(33): do_action('woovanilla_befo...')
+#3 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#8 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(34): WC_Shortcodes::products(Array, NULL, 'products')
+#9 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(137): woovanilla_do_shortcode('products', Array)
+#10 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_catalog_products(Array)
+#11 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#12 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): do_action('homepage')
+#14 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#15 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#16 /var/www/html/index.php(17): require('/var/www/html/w...')
+#17 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-20T08:05:26+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "tinvwl_view_addto_htmlloop" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-product.php(33): do_action('woovanilla_befo...')
+#3 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#8 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(34): WC_Shortcodes::products(Array, NULL, 'products')
+#9 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(137): woovanilla_do_shortcode('products', Array)
+#10 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_catalog_products(Array)
+#11 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#12 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): do_action('homepage')
+#14 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#15 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#16 /var/www/html/index.php(17): require('/var/www/html/w...')
+#17 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-20T08:06:42+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "tinvwl_view_addto_htmlloop" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-product.php(33): do_action('woovanilla_befo...')
+#3 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#8 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(34): WC_Shortcodes::products(Array, NULL, 'products')
+#9 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(137): woovanilla_do_shortcode('products', Array)
+#10 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_catalog_products(Array)
+#11 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#12 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): do_action('homepage')
+#14 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#15 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#16 /var/www/html/index.php(17): require('/var/www/html/w...')
+#17 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+
+2023-04-20T15:32:19+00:00 CRITICAL Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php:386
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(386): round('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): wv_get_rating_html('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-product.php(68): do_action('woocommerce_aft...')
+#5 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#8 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#9 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#10 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(34): WC_Shortcodes::products(Array, NULL, 'products')
+#11 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(137): woovanilla_do_shortcode('products', Array)
+#12 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_catalog_products(Array)
+#13 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#14 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#15 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): do_action('homepage')
+#16 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#17 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#18 /var/www/html/index.php(17): require('/var/www/html/w...')
+#19 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 386
+
+2023-04-20T15:33:30+00:00 CRITICAL Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php:386
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(386): round('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): wv_get_rating_html('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-product.php(68): do_action('woocommerce_aft...')
+#5 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#8 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#9 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#10 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(34): WC_Shortcodes::products(Array, NULL, 'products')
+#11 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(137): woovanilla_do_shortcode('products', Array)
+#12 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_catalog_products(Array)
+#13 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#14 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#15 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): do_action('homepage')
+#16 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#17 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#18 /var/www/html/index.php(17): require('/var/www/html/w...')
+#19 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 386
+
+2023-04-20T15:35:19+00:00 CRITICAL Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php:386
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(386): round('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): wv_get_rating_html('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-product.php(68): do_action('woocommerce_aft...')
+#5 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#8 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#9 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#10 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(34): WC_Shortcodes::products(Array, NULL, 'products')
+#11 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(137): woovanilla_do_shortcode('products', Array)
+#12 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_catalog_products(Array)
+#13 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#14 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#15 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): do_action('homepage')
+#16 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#17 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#18 /var/www/html/index.php(17): require('/var/www/html/w...')
+#19 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 386
+
+2023-04-20T16:11:16+00:00 CRITICAL Uncaught ValueError: Argument number specifier must be greater than zero and less than 2147483647 in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/universal-product/rating.php:34
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/universal-product/rating.php(34): printf('%$'s review', '<span class="co...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#2 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(17): wc_get_template('universal-produ...', Array, '', '/var/www/html/w...')
+#3 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(370): wc_get_template('universal-produ...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_template_rating('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-product.php(68): do_action('woocommerce_aft...')
+#8 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#9 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#11 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#12 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#13 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(34): WC_Shortcodes::products(Array, NULL, 'products')
+#14 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(137): woovanilla_do_shortcode('products', Array)
+#15 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_catalog_products(Array)
+#16 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#17 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#18 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): do_action('homepage')
+#19 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#20 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#21 /var/www/html/index.php(17): require('/var/www/html/w...')
+#22 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/universal-product/rating.php на строке 34
+
+2023-04-20T16:11:25+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "r" in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/universal-product/rating.php:34
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/universal-product/rating.php(34): printf('%'s review', '<span class="co...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#2 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(17): wc_get_template('universal-produ...', Array, '', '/var/www/html/w...')
+#3 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(370): wc_get_template('universal-produ...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_template_rating('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-product.php(68): do_action('woocommerce_aft...')
+#8 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#9 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#11 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#12 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#13 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(34): WC_Shortcodes::products(Array, NULL, 'products')
+#14 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(137): woovanilla_do_shortcode('products', Array)
+#15 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_catalog_products(Array)
+#16 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#17 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#18 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): do_action('homepage')
+#19 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#20 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#21 /var/www/html/index.php(17): require('/var/www/html/w...')
+#22 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/universal-product/rating.php на строке 34
+
+2023-04-20T16:14:33+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "r" in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/universal-product/rating.php:34
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/universal-product/rating.php(34): sprintf('%'s review', '<span class="co...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#2 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(17): wc_get_template('universal-produ...', Array, '', '/var/www/html/w...')
+#3 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(370): wc_get_template('universal-produ...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_template_rating('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-product.php(68): do_action('woocommerce_aft...')
+#8 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#9 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#11 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#12 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#13 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(34): WC_Shortcodes::products(Array, NULL, 'products')
+#14 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(137): woovanilla_do_shortcode('products', Array)
+#15 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_catalog_products(Array)
+#16 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#17 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#18 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): do_action('homepage')
+#19 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#20 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#21 /var/www/html/index.php(17): require('/var/www/html/w...')
+#22 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/universal-product/rating.php на строке 34
+
+2023-04-20T16:25:54+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "r" in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/universal-product/rating.php:34
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/universal-product/rating.php(34): sprintf('% review', '<span class="co...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#2 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(17): wc_get_template('universal-produ...', Array, '', '/var/www/html/w...')
+#3 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(370): wc_get_template('universal-produ...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_template_rating('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-product.php(68): do_action('woocommerce_aft...')
+#8 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#9 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#11 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#12 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#13 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(34): WC_Shortcodes::products(Array, NULL, 'products')
+#14 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(137): woovanilla_do_shortcode('products', Array)
+#15 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_catalog_products(Array)
+#16 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#17 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#18 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): do_action('homepage')
+#19 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#20 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#21 /var/www/html/index.php(17): require('/var/www/html/w...')
+#22 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/universal-product/rating.php на строке 34
+
+2023-04-20T16:40:11+00:00 CRITICAL Uncaught ValueError: Unknown format specifier ";" in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/universal-product/rating.php:34
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/universal-product/rating.php(34): printf('%;s review', '<span class="co...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#2 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(17): wc_get_template('universal-produ...', Array, '', '/var/www/html/w...')
+#3 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(370): wc_get_template('universal-produ...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_template_rating('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-product.php(68): do_action('woocommerce_aft...')
+#8 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#9 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#11 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#12 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#13 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(34): WC_Shortcodes::products(Array, NULL, 'products')
+#14 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(137): woovanilla_do_shortcode('products', Array)
+#15 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_catalog_products(Array)
+#16 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#17 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#18 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): do_action('homepage')
+#19 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#20 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#21 /var/www/html/index.php(17): require('/var/www/html/w...')
+#22 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/universal-product/rating.php на строке 34
+
+2023-04-20T16:51:51+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "�" in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php:413
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(413): printf('<div class="woo...', '')
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_template_loop_item_delivery_time_waiting('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-product.php(68): do_action('woocommerce_aft...')
+#5 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#8 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#9 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#10 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(34): WC_Shortcodes::products(Array, NULL, 'products')
+#11 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(137): woovanilla_do_shortcode('products', Array)
+#12 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_catalog_products(Array)
+#13 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#14 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#15 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): do_action('homepage')
+#16 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#17 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#18 /var/www/html/index.php(17): require('/var/www/html/w...')
+#19 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 413
+
+2023-04-20T16:52:07+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "�" in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php:413
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(413): printf('<div class="woo...', '')
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_template_loop_item_delivery_time_waiting('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-product.php(68): do_action('woocommerce_aft...')
+#5 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#8 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#9 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#10 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(34): WC_Shortcodes::products(Array, NULL, 'products')
+#11 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(137): woovanilla_do_shortcode('products', Array)
+#12 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_catalog_products(Array)
+#13 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#14 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#15 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): do_action('homepage')
+#16 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#17 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#18 /var/www/html/index.php(17): require('/var/www/html/w...')
+#19 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 413
+
+2023-04-20T17:13:51+00:00 CRITICAL syntax error, unexpected end of file в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 83
+
+2023-04-20T17:13:53+00:00 CRITICAL syntax error, unexpected end of file в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 83
+
