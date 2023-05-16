@@ -1,0 +1,43 @@
+2023-04-30T16:51:56+00:00 CRITICAL Uncaught Error: Class "WooVanilla\Core\Walker_Categories_Header" not found in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-blocks/wv-categories.php:9
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/wp-content/themes/woo-vanilla/footer.php(14): wc_get_template('wv-blocks/wv-ca...')
+#2 /var/www/html/wp-includes/template.php(783): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#4 /var/www/html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#5 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(24): get_footer()
+#6 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-blocks/wv-categories.php на строке 9
+
+2023-04-30T21:10:41+00:00 CRITICAL Cannot use positional argument after argument unpacking в /var/www/html/wp-content/themes/woo-vanilla/inc/core/class-walker-categories-footer.php на строке 189
+
+2023-04-30T21:26:57+00:00 CRITICAL syntax error, unexpected variable "$this" в /var/www/html/wp-content/themes/woo-vanilla/inc/core/class-walker-categories-footer.php на строке 138
+
+2023-04-30T21:29:26+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /var/www/html/wp-content/themes/woo-vanilla/inc/core/class-walker-categories-footer.php:33
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/inc/core/class-walker-categories-footer.php(196): WooVanilla\Core\Walker_Categories_Footer->start_lvl('<li id="nav-men...', 0, Array, 0, Object(stdClass))
+#1 /var/www/html/wp-content/themes/woo-vanilla/inc/core/class-walker-categories-footer.php(140): WooVanilla\Core\Walker_Categories_Footer->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="nav-men...', Array, 0)
+#2 /var/www/html/wp-includes/nav-menu-template.php(616): WooVanilla\Core\Walker_Categories_Footer->walk(Array, 0, Object(stdClass))
+#3 /var/www/html/wp-includes/nav-menu-template.php(236): walk_nav_menu_tree(Array, 0, Object(stdClass))
+#4 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-blocks/wv-categories.php(7): wp_nav_menu(Object(stdClass))
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#6 /var/www/html/wp-content/themes/woo-vanilla/footer.php(21): wc_get_template('wv-blocks/wv-ca...', Array)
+#7 /var/www/html/wp-includes/template.php(783): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#9 /var/www/html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#10 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(24): get_footer()
+#11 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#12 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#13 /var/www/html/index.php(17): require('/var/www/html/w...')
+#14 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/core/class-walker-categories-footer.php на строке 33
+
+2023-04-30T22:12:24+00:00 CRITICAL Declaration of WooVanilla\Core\Walker_Categories_Footer::start_el(&$output, $data_object, $depth, $wv_index_top_lvl_element, $args = null, $current_object_id = 0) must be compatible with Walker_Nav_Menu::start_el(&$output, $data_object, $depth = 0, $args = null, $current_object_id = 0) в /var/www/html/wp-content/themes/woo-vanilla/inc/core/class-walker-categories-footer.php на строке 51
+
+2023-04-30T22:12:49+00:00 CRITICAL Declaration of WooVanilla\Core\Walker_Categories_Footer::start_el(&$output, $data_object, $depth, $wv_index_top_lvl_element, $args = null, $current_object_id = 0) must be compatible with Walker_Nav_Menu::start_el(&$output, $data_object, $depth = 0, $args = null, $current_object_id = 0) в /var/www/html/wp-content/themes/woo-vanilla/inc/core/class-walker-categories-footer.php на строке 51
+
+2023-04-30T22:13:28+00:00 CRITICAL Declaration of WooVanilla\Core\Walker_Categories_Footer::start_el(&$output, $data_object, $wv_index_top_lvl_element, $depth = 0, $args = null, $current_object_id = 0) must be compatible with Walker_Nav_Menu::start_el(&$output, $data_object, $depth = 0, $args = null, $current_object_id = 0) в /var/www/html/wp-content/themes/woo-vanilla/inc/core/class-walker-categories-footer.php на строке 51
+

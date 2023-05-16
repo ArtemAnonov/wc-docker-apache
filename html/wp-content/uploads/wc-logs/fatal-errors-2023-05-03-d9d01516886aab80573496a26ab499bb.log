@@ -1,0 +1,2 @@
+2023-05-03T20:00:55+00:00 CRITICAL Declaration of WooVanilla\Core\Walker_Collapse::end_lvl() must be compatible with Walker_Nav_Menu::end_lvl(&$output, $depth = 0, $args = null) в /var/www/html/wp-content/themes/woo-vanilla/inc/core/class-walker-collapse.php на строке 41
+

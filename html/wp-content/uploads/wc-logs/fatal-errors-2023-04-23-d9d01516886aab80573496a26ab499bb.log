@@ -1,0 +1,166 @@
+2023-04-23T10:37:07+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes) в /var/www/html/wp-includes/functions.php на строке 649
+
+2023-04-23T10:37:57+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes) в /var/www/html/wp-includes/functions.php на строке 649
+
+2023-04-23T10:38:38+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, WP_Error given in /var/www/html/wp-includes/formatting.php:4392
+Stack trace:
+#0 /var/www/html/wp-includes/formatting.php(4392): ltrim(Object(WP_Error))
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1226): esc_url(Object(WP_Error))
+#2 /var/www/html/wp-includes/class-wp-hook.php(308): woocommerce_template_loop_category_link_open(NULL)
+#3 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-content/plugins/woocommerce/templates/content-product-cat.php(29): do_action('woocommerce_bef...', NULL)
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#7 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/taxonomy-product-cat.php(38): wc_get_template('content-product...')
+#8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#10 /var/www/html/index.php(17): require('/var/www/html/w...')
+#11 {main}
+  thrown в /var/www/html/wp-includes/formatting.php на строке 4392
+
+2023-04-23T15:21:07+00:00 CRITICAL Uncaught Error: Class "WooVanilla\Api\Widget_Areas" not found in /var/www/html/wp-content/themes/woo-vanilla/inc/class-woovanilla.php:77
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/inc/class-woovanilla.php(63): WooVanilla::instantiate('WooVanilla\\Api\\...')
+#1 /var/www/html/wp-content/themes/woo-vanilla/functions.php(13): WooVanilla::register_services()
+#2 /var/www/html/wp-settings.php(592): include('/var/www/html/w...')
+#3 /var/www/html/wp-config.php(176): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/class-woovanilla.php на строке 77
+
+2023-04-23T15:21:10+00:00 CRITICAL Uncaught Error: Class "WooVanilla\Api\Widget_Areas" not found in /var/www/html/wp-content/themes/woo-vanilla/inc/class-woovanilla.php:77
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/inc/class-woovanilla.php(63): WooVanilla::instantiate('WooVanilla\\Api\\...')
+#1 /var/www/html/wp-content/themes/woo-vanilla/functions.php(13): WooVanilla::register_services()
+#2 /var/www/html/wp-settings.php(592): include('/var/www/html/w...')
+#3 /var/www/html/wp-config.php(176): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/class-woovanilla.php на строке 77
+
+2023-04-23T15:25:43+00:00 CRITICAL Uncaught Error: Class "WooVanilla\Api\Widget_Areas" not found in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php:106
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/vendor/composer/autoload_real.php(78): require()
+#1 /var/www/html/wp-content/themes/woo-vanilla/vendor/composer/autoload_real.php(61): composerRequire78eba1df147b0fef1ebb7f7219106a30('d3407d2d2e30dbf...', '/var/www/html/w...')
+#2 /var/www/html/wp-content/themes/woo-vanilla/vendor/autoload.php(7): ComposerAutoloaderInit78eba1df147b0fef1ebb7f7219106a30::getLoader()
+#3 /var/www/html/wp-content/themes/woo-vanilla/functions.php(9): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-settings.php(592): include('/var/www/html/w...')
+#5 /var/www/html/wp-config.php(176): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 106
+
+2023-04-23T15:25:44+00:00 CRITICAL Uncaught Error: Class "WooVanilla\Api\Widget_Areas" not found in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php:106
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/vendor/composer/autoload_real.php(78): require()
+#1 /var/www/html/wp-content/themes/woo-vanilla/vendor/composer/autoload_real.php(61): composerRequire78eba1df147b0fef1ebb7f7219106a30('d3407d2d2e30dbf...', '/var/www/html/w...')
+#2 /var/www/html/wp-content/themes/woo-vanilla/vendor/autoload.php(7): ComposerAutoloaderInit78eba1df147b0fef1ebb7f7219106a30::getLoader()
+#3 /var/www/html/wp-content/themes/woo-vanilla/functions.php(9): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-settings.php(592): include('/var/www/html/w...')
+#5 /var/www/html/wp-config.php(176): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 106
+
+2023-04-23T15:25:45+00:00 CRITICAL Uncaught Error: Class "WooVanilla\Api\Widget_Areas" not found in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php:106
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/vendor/composer/autoload_real.php(78): require()
+#1 /var/www/html/wp-content/themes/woo-vanilla/vendor/composer/autoload_real.php(61): composerRequire78eba1df147b0fef1ebb7f7219106a30('d3407d2d2e30dbf...', '/var/www/html/w...')
+#2 /var/www/html/wp-content/themes/woo-vanilla/vendor/autoload.php(7): ComposerAutoloaderInit78eba1df147b0fef1ebb7f7219106a30::getLoader()
+#3 /var/www/html/wp-content/themes/woo-vanilla/functions.php(9): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-settings.php(592): include('/var/www/html/w...')
+#5 /var/www/html/wp-config.php(176): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 106
+
+2023-04-23T15:27:56+00:00 CRITICAL Uncaught Error: Class "WooVanilla\Api\Widget_Areas" not found in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php:106
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/vendor/composer/autoload_real.php(78): require()
+#1 /var/www/html/wp-content/themes/woo-vanilla/vendor/composer/autoload_real.php(61): composerRequire78eba1df147b0fef1ebb7f7219106a30('d3407d2d2e30dbf...', '/var/www/html/w...')
+#2 /var/www/html/wp-content/themes/woo-vanilla/vendor/autoload.php(7): ComposerAutoloaderInit78eba1df147b0fef1ebb7f7219106a30::getLoader()
+#3 /var/www/html/wp-content/themes/woo-vanilla/functions.php(9): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-settings.php(592): include('/var/www/html/w...')
+#5 /var/www/html/wp-config.php(176): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 106
+
+2023-04-23T15:27:57+00:00 CRITICAL Uncaught Error: Class "WooVanilla\Api\Widget_Areas" not found in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php:106
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/vendor/composer/autoload_real.php(78): require()
+#1 /var/www/html/wp-content/themes/woo-vanilla/vendor/composer/autoload_real.php(61): composerRequire78eba1df147b0fef1ebb7f7219106a30('d3407d2d2e30dbf...', '/var/www/html/w...')
+#2 /var/www/html/wp-content/themes/woo-vanilla/vendor/autoload.php(7): ComposerAutoloaderInit78eba1df147b0fef1ebb7f7219106a30::getLoader()
+#3 /var/www/html/wp-content/themes/woo-vanilla/functions.php(9): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-settings.php(592): include('/var/www/html/w...')
+#5 /var/www/html/wp-config.php(176): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 106
+
+2023-04-23T15:29:42+00:00 CRITICAL Uncaught Error: Class "WooVanilla\Api\Widget_Areas" not found in /var/www/html/wp-content/themes/woo-vanilla/inc/class-woovanilla.php:77
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/inc/class-woovanilla.php(63): WooVanilla::instantiate('WooVanilla\\Api\\...')
+#1 /var/www/html/wp-content/themes/woo-vanilla/functions.php(13): WooVanilla::register_services()
+#2 /var/www/html/wp-settings.php(592): include('/var/www/html/w...')
+#3 /var/www/html/wp-config.php(176): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/class-woovanilla.php на строке 77
+
+2023-04-23T15:29:46+00:00 CRITICAL Uncaught Error: Class "WooVanilla\Api\Widget_Areas" not found in /var/www/html/wp-content/themes/woo-vanilla/inc/class-woovanilla.php:77
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/inc/class-woovanilla.php(63): WooVanilla::instantiate('WooVanilla\\Api\\...')
+#1 /var/www/html/wp-content/themes/woo-vanilla/functions.php(13): WooVanilla::register_services()
+#2 /var/www/html/wp-settings.php(592): include('/var/www/html/w...')
+#3 /var/www/html/wp-config.php(176): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/class-woovanilla.php на строке 77
+
+2023-04-23T20:17:19+00:00 CRITICAL Uncaught Error: Call to undefined function woovanilla_shortcode_products() in /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php:14
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php на строке 14
+
+2023-04-23T20:26:18+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 65
+
+2023-04-23T20:26:22+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 65
+
+2023-04-23T20:26:27+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 65
+
+2023-04-23T20:26:29+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 65
+
+2023-04-23T20:38:24+00:00 CRITICAL Uncaught Error: Undefined constant "best_selling" in /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php:15
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php на строке 15
+
+2023-04-23T20:43:26+00:00 CRITICAL syntax error, unexpected variable "$shortcode_content" в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 63
+
+2023-04-23T20:43:27+00:00 CRITICAL syntax error, unexpected variable "$shortcode_content" в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 63
+

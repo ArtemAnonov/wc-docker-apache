@@ -42,17 +42,22 @@ class WVE_Shortcodes extends \WC_Shortcodes {
 		add_shortcode( 'woocommerce_messages', get_parent_class() . '::shop_messages' );
 	}
 
+	/**
+	 * Undocumented function
+	 *
+	 * @param [type] $atts the comment param.
+	 */
 	public static function products_slider( $atts ) {
 		$atts = (array) $atts;
 		$type = 'products-slider';
 
 		// Allow list product based on specific cases.
 		if ( isset( $atts['on_sale'] ) && wc_string_to_bool( $atts['on_sale'] ) ) {
-			$type = 'sale_products_slider';
+			$type = 'sale_products';
 		} elseif ( isset( $atts['best_selling'] ) && wc_string_to_bool( $atts['best_selling'] ) ) {
-			$type = 'best_selling_products_slider';
+			$type = 'best_selling_products';
 		} elseif ( isset( $atts['top_rated'] ) && wc_string_to_bool( $atts['top_rated'] ) ) {
-			$type = 'top_rated_products_slider';
+			$type = 'top_rated_products';
 		}
 
 		$shortcode = new WVE_Shortcode_Products_Slider( $atts, $type );

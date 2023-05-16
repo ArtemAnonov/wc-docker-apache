@@ -1,0 +1,76 @@
+2023-04-26T09:27:39+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/sliders-home.php:14
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): wc_get_template('wv-sections/sli...')
+#2 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/sliders-home.php на строке 14
+
+2023-04-26T09:39:50+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/sliders-home.php:21
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): wc_get_template('wv-sections/sli...')
+#2 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/sliders-home.php на строке 21
+
+2023-04-26T09:41:32+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/sliders-home.php:21
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): wc_get_template('wv-sections/sli...')
+#2 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/sliders-home.php на строке 21
+
+2023-04-26T09:53:48+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/sliders-home.php:21
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): wc_get_template('wv-sections/sli...')
+#2 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/sliders-home.php на строке 21
+
+2023-04-26T09:53:54+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/sliders-home.php:21
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): wc_get_template('wv-sections/sli...')
+#2 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/sliders-home.php на строке 21
+
+2023-04-26T09:55:11+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/sliders-home.php:21
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): wc_get_template('wv-sections/sli...')
+#2 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/sliders-home.php на строке 21
+
+2023-04-26T10:28:53+00:00 CRITICAL syntax error, unexpected identifier "wp_deregister_script" в /var/www/html/wp-content/themes/woo-vanilla/inc/setup/class-enqueue.php на строке 63
+
+2023-04-26T10:28:58+00:00 CRITICAL syntax error, unexpected identifier "wp_deregister_script" в /var/www/html/wp-content/themes/woo-vanilla/inc/setup/class-enqueue.php на строке 63
+
+2023-04-26T15:54:18+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Post as array in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/sliders-home.php:27
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): wc_get_template('wv-sections/sli...')
+#2 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/sliders-home.php на строке 27
+
+2023-04-26T16:09:59+00:00 CRITICAL syntax error, unexpected token "endforeach", expecting end of file в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/sliders-home.php на строке 32
+

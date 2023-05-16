@@ -21,7 +21,7 @@ class WVE_Shortcode_Products_Slider extends \WC_Shortcode_Products {
 	 * @return array
 	 */
 	protected function get_wrapper_classes( $columns ) {
-		$classes = array( 'swiper' );
+		$classes = array( 'swiper', 'wv-slider-products' );
 
 		$classes[] = $this->attributes['class'];
 
@@ -81,8 +81,7 @@ class WVE_Shortcode_Products_Slider extends \WC_Shortcode_Products {
 					// Set custom product visibility when quering hidden products.
 					add_action( 'woocommerce_product_is_visible', array( $this, 'set_product_as_visible' ) );
 					// Render product template.
-					// wc_get_template( 'content-product-slider.php' );
-					wc_get_template( 'content-product.php', array( 'wv_loop_product_view_type' => 'slider' ) );
+					wc_get_template( 'content-slider-product.php' );
 
 					// Restore product visibility.
 					remove_action( 'woocommerce_product_is_visible', array( $this, 'set_product_as_visible' ) );
@@ -104,7 +103,9 @@ class WVE_Shortcode_Products_Slider extends \WC_Shortcode_Products {
 		} else {
 			do_action( "woocommerce_shortcode_{$this->type}_loop_no_results", $this->attributes );
 		}
+		wc_get_template( 'wv-packages/wv-swiper-arrows.php' );
 
-		return '<div class="' . esc_attr( implode( ' ', $classes ) ) . '">' . ob_get_clean() . '</div>';
+		return '<div class="' . esc_attr( implode( ' ', $classes ) ) . '">' . ob_get_clean() .
+		'</div>';
 	}
 }

@@ -1,0 +1,59 @@
+2023-04-28T10:23:52+00:00 CRITICAL Unclosed '{' on line 30 does not match ')' в /var/www/html/wp-content/themes/woo-vanilla/inc/setup/class-enqueue.php на строке 60
+
+2023-04-28T10:23:55+00:00 CRITICAL Unclosed '{' on line 30 does not match ')' в /var/www/html/wp-content/themes/woo-vanilla/inc/setup/class-enqueue.php на строке 60
+
+2023-04-28T19:06:22+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 134
+
+2023-04-28T19:06:22+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 134
+
+2023-04-28T19:06:27+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 134
+
+2023-04-28T19:06:28+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 134
+
+2023-04-28T19:06:58+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 134
+
+2023-04-28T19:07:00+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 134
+
+2023-04-28T19:07:15+00:00 CRITICAL Uncaught TypeError: array_search(): Argument #2 ($haystack) must be of type array, null given in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php:132
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(132): array_search('pa_czvet', NULL)
+#1 [internal function]: {closure}(Object(WC_Product_Attribute))
+#2 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(136): array_filter(Array, Object(Closure))
+#3 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-product.php(71): woovanilla_template_product_attributes(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#5 /var/www/html/wp-content/plugins/woovanilla-expander/includes/shortcodes/class-wve-shortcode-products-slider.php(84): wc_get_template('content-product...', Array)
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WooVanilla_Expander\Shortcodes\WVE_Shortcode_Products_Slider->product_loop()
+#7 /var/www/html/wp-content/plugins/woovanilla-expander/includes/class-wve-shortcodes.php(65): WC_Shortcode_Products->get_content()
+#8 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(38): WooVanilla_Expander\WVE_Shortcodes::products_slider(Array, NULL, 'products_slider')
+#9 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(65): woovanilla_do_shortcode('products_slider', Array)
+#10 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/sliders-home.php(46): woovanilla_slider_products(Array, '\xD0\x91\xD1\x83\xD0\xBA\xD0\xB5\xD1\x82 \xD0\xBD\xD0\xB5...', 'products_slider', '')
+#11 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#12 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(14): wc_get_template('wv-sections/sli...')
+#13 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#14 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#15 /var/www/html/index.php(17): require('/var/www/html/w...')
+#16 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 132
+
+2023-04-28T19:20:12+00:00 CRITICAL Unclosed '{' on line 145 does not match ')' в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 164
+
+2023-04-28T19:20:14+00:00 CRITICAL Unclosed '{' on line 145 does not match ')' в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 164
+
+2023-04-28T19:41:58+00:00 CRITICAL Uncaught TypeError: array_search(): Argument #2 ($haystack) must be of type array, string given in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php:132
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(132): array_search('pa_czvet', '')
+#1 [internal function]: {closure}(Object(WC_Product_Attribute))
+#2 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(135): array_filter(Array, Object(Closure))
+#3 /var/www/html/wp-includes/class-wp-hook.php(308): woovanilla_template_product_attributes('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-single-product.php(48): do_action('woocommerce_sin...')
+#7 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#8 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#9 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/single-product.php(28): wc_get_template_part('content', 'single-product')
+#10 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#11 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 132
+
