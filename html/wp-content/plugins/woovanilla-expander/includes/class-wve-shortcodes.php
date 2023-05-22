@@ -1,9 +1,17 @@
 <?php
+/**
+ * Descr
+ *
+ * @package WooVanilla
+ */
 
 namespace WooVanilla_Expander;
 
 use WooVanilla_Expander\Shortcodes\WVE_Shortcode_Products_Slider;
 
+/**
+ * Undocumented class
+ */
 class WVE_Shortcodes extends \WC_Shortcodes {
 
 	/**
@@ -46,21 +54,38 @@ class WVE_Shortcodes extends \WC_Shortcodes {
 	 * Undocumented function
 	 *
 	 * @param [type] $atts the comment param.
+	 *    $atts = [
+	 *      'wv_shortcode_type'     => (string) Тип шорткода.
+	 * 		]
 	 */
 	public static function products_slider( $atts ) {
 		$atts = (array) $atts;
 		$type = 'products-slider';
 
-		// Allow list product based on specific cases.
-		if ( isset( $atts['on_sale'] ) && wc_string_to_bool( $atts['on_sale'] ) ) {
-			$type = 'sale_products';
-		} elseif ( isset( $atts['best_selling'] ) && wc_string_to_bool( $atts['best_selling'] ) ) {
-			$type = 'best_selling_products';
-		} elseif ( isset( $atts['top_rated'] ) && wc_string_to_bool( $atts['top_rated'] ) ) {
-			$type = 'top_rated_products';
+		if ( isset( $atts['wv_shortcode_type'] ) ) {
+			$type = $atts['wv_shortcode_type'];
 		}
 
 		$shortcode = new WVE_Shortcode_Products_Slider( $atts, $type );
+
+		return $shortcode->get_content();
+	}
+
+		/**
+		 * List multiple products shortcode.
+		 *
+		 * @param array $atts Attributes.
+		 * @return string
+		 */
+	public static function products( $atts ) {
+		$atts = (array) $atts;
+		$type = 'products';
+
+		if ( isset( $atts['wv_shortcode_type'] ) ) {
+			$type = $atts['wv_shortcode_type'];
+		}
+
+		$shortcode = new WVE_Shortcode_Products( $atts, $type );
 
 		return $shortcode->get_content();
 	}

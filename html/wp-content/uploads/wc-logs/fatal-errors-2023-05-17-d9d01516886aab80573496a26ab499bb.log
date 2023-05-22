@@ -1,0 +1,10 @@
+2023-05-17T20:12:25+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file в /var/www/html/wp-content/themes/woo-vanilla/templates/side-cart-woocommerce/global/body/product.php на строке 24
+
+2023-05-17T21:24:00+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" в /var/www/html/wp-content/themes/woo-vanilla/templates/side-cart-woocommerce/global/body/product.php на строке 76
+
+2023-05-17T21:24:12+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" в /var/www/html/wp-content/themes/woo-vanilla/templates/side-cart-woocommerce/global/body/product.php на строке 76
+
+2023-05-17T21:24:54+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" в /var/www/html/wp-content/themes/woo-vanilla/templates/side-cart-woocommerce/global/body/product.php на строке 76
+
+2023-05-17T21:26:30+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" в /var/www/html/wp-content/themes/woo-vanilla/templates/side-cart-woocommerce/global/body/product.php на строке 62
+

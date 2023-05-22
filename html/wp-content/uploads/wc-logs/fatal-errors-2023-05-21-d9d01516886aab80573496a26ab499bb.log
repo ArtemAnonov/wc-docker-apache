@@ -1,0 +1,136 @@
+2023-05-21T11:31:03+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/checkout/payment-method.php:19
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/checkout/payment.php(20): wc_get_template('checkout/paymen...', Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2384): wc_get_template('checkout/paymen...', Array)
+#4 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/checkout/form-billing.php(74): woocommerce_checkout_payment()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(335): wc_get_template('checkout/form-b...', Array)
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WC_Checkout->checkout_form_billing('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/checkout/form-checkout.php(22): do_action('woocommerce_che...')
+#11 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#12 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#13 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#14 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#15 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#16 /var/www/html/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#17 [internal function]: do_shortcode_tag(Array)
+#18 /var/www/html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#19 /var/www/html/wp-content/themes/woo-vanilla/template-checkout.php(32): do_shortcode('[woocommerce_ch...')
+#20 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#21 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#22 /var/www/html/index.php(17): require('/var/www/html/w...')
+#23 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/checkout/payment-method.php на строке 19
+
+2023-05-21T11:43:13+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Gateway_BACS::get_id() in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/checkout/payment-method.php:18
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/checkout/payment.php(23): wc_get_template('checkout/paymen...', Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2384): wc_get_template('checkout/paymen...', Array)
+#4 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/checkout/form-billing.php(74): woocommerce_checkout_payment()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(335): wc_get_template('checkout/form-b...', Array)
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WC_Checkout->checkout_form_billing('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/checkout/form-checkout.php(22): do_action('woocommerce_che...')
+#11 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#12 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#13 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#14 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#15 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#16 /var/www/html/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#17 [internal function]: do_shortcode_tag(Array)
+#18 /var/www/html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#19 /var/www/html/wp-content/themes/woo-vanilla/template-checkout.php(32): do_shortcode('[woocommerce_ch...')
+#20 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#21 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#22 /var/www/html/index.php(17): require('/var/www/html/w...')
+#23 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/checkout/payment-method.php на строке 18
+
+2023-05-21T18:58:57+00:00 CRITICAL syntax error, unexpected token "**" в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/archive-product.php на строке 83
+
+2023-05-21T19:52:35+00:00 CRITICAL syntax error, unexpected token "." в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 76
+
+2023-05-21T19:52:37+00:00 CRITICAL syntax error, unexpected token "." в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 76
+
+2023-05-21T19:54:39+00:00 CRITICAL syntax error, unexpected variable "$args", expecting "," or ";" в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 76
+
+2023-05-21T19:54:41+00:00 CRITICAL syntax error, unexpected variable "$args", expecting "," or ";" в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 76
+
+2023-05-21T20:26:34+00:00 CRITICAL Uncaught Error: Class "WVE_Shortcode_Products" not found in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/archive-product.php:78
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/archive-product.php на строке 78
+
+2023-05-21T20:26:42+00:00 CRITICAL Uncaught Error: Class "WVE_Shortcode_Products" not found in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/archive-product.php:78
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/archive-product.php на строке 78
+
+2023-05-21T20:27:06+00:00 CRITICAL Uncaught Error: Class "WVE_Shortcodes" not found in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/archive-product.php:78
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/archive-product.php на строке 78
+
+2023-05-21T23:41:48+00:00 CRITICAL Uncaught Error: Undefined constant "condition" in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php:486
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/vendor/composer/autoload_real.php(78): require()
+#1 /var/www/html/wp-content/themes/woo-vanilla/vendor/composer/autoload_real.php(61): composerRequire78eba1df147b0fef1ebb7f7219106a30('00c34866629edf2...', '/var/www/html/w...')
+#2 /var/www/html/wp-content/themes/woo-vanilla/vendor/autoload.php(7): ComposerAutoloaderInit78eba1df147b0fef1ebb7f7219106a30::getLoader()
+#3 /var/www/html/wp-content/themes/woo-vanilla/functions.php(9): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-settings.php(592): include('/var/www/html/w...')
+#5 /var/www/html/wp-config.php(176): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php на строке 486
+
+2023-05-21T23:41:51+00:00 CRITICAL Uncaught Error: Undefined constant "condition" in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php:486
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/vendor/composer/autoload_real.php(78): require()
+#1 /var/www/html/wp-content/themes/woo-vanilla/vendor/composer/autoload_real.php(61): composerRequire78eba1df147b0fef1ebb7f7219106a30('00c34866629edf2...', '/var/www/html/w...')
+#2 /var/www/html/wp-content/themes/woo-vanilla/vendor/autoload.php(7): ComposerAutoloaderInit78eba1df147b0fef1ebb7f7219106a30::getLoader()
+#3 /var/www/html/wp-content/themes/woo-vanilla/functions.php(9): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-settings.php(592): include('/var/www/html/w...')
+#5 /var/www/html/wp-config.php(176): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php на строке 486
+
+2023-05-21T23:44:40+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Xoo_Wsc_Cart does not have a method "wv_set_ajax_fragments" in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(214): apply_filters('woocommerce_add...', Array)
+#2 /var/www/html/wp-content/plugins/side-cart-woocommerce/includes/class-xoo-wsc-cart.php(177): WC_AJAX::get_refreshed_fragments()
+#3 /var/www/html/wp-includes/class-wp-hook.php(308): Xoo_Wsc_Cart->get_refreshed_fragments('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_xoo_wsc...')
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#11 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 308
+

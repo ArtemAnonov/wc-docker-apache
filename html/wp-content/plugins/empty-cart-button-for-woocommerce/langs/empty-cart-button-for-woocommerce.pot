@@ -1,0 +1,444 @@
+# Copyright (C) 2021 ProWCPlugins
+# This file is distributed under the same license as the Empty Cart Button for WooCommerce plugin.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Empty Cart Button for WooCommerce\n"
+"POT-Creation-Date: 2022-11-11 17:02+0530\n"
+"PO-Revision-Date: 2017-03-11 16:09+0530\n"
+"Last-Translator: ProWCPlugins\n"
+"Language-Team: ProWCPlugins <prowcplugins@gmail.com\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c;_ex:1,2c;"
+"_nx:1,2c;esc_attr_e;esc_attr__;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c;_n_noop:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: empty-cart-button-for-woocommerce.php:157
+msgid "Settings"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:159
+msgid "Unlock All"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:279
+#: empty-cart-button-for-woocommerce.php:288
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:103
+msgid "Empty Cart Button for WooCommerce"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:279
+msgid ""
+" plugin is not working because you need to activate the WooCoomerce plugin."
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:280
+msgid "Activate Woocommerce Now"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:288
+msgid ""
+" plugin is not working because you need to install the WooCoomerce plugin"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:289
+msgid "Install WooCoomerce Now"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:308
+msgid "Upgrade Empty Cart Button for WooCommerce"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:308
+msgid "to get additional features, security, and support. "
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:308
+msgid "Get 20% OFF"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:308
+msgid " your upgrade, use coupon code"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:308
+msgid "WP20"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:312
+msgid "Buy Now"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:313
+#: empty-cart-button-for-woocommerce.php:378
+msgid "Remind me later"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:314
+#: empty-cart-button-for-woocommerce.php:379
+msgid "Dismiss Notice"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:362
+#, php-format
+msgid "How are you liking the %s?"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:396
+msgid "Are you enjoying Empty Cart Button for WooCommerce?"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:400
+msgid "Yes!"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:401
+msgid "Not Really!"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:413
+msgid ""
+"That's awesome! Could you please do me a BIG favor and give it 5-star "
+"rating on WordPress to help us spread the word and boost our motivation?"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:417
+msgid "Okay You Deserve It"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:418
+msgid "Nope Maybe later"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:419
+msgid "I Already Did"
+msgstr ""
+
+#: includes/class-prowc-empty-cart-button-core.php:67
+#: includes/class-prowc-empty-cart-button-core.php:129
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:258
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:24
+msgid "General"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:36
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:59
+msgid "Do not add"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:37
+msgid "Before checkout form"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:38
+msgid "Before customer details"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:39
+msgid "Billing"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:40
+msgid "Shipping"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:41
+msgid "After customer details"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:42
+msgid "Before order review heading"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:43
+msgid "Before order review"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:44
+msgid "Order review"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:45
+msgid "After order review"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:46
+msgid "After checkout form"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:60
+msgid "Before cart"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:61
+msgid "Before cart table"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:62
+msgid "Before cart contents"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:63
+msgid "Inside cart contents"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:64
+msgid "After \"Apply coupon\" button"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:65
+msgid "After \"Update cart\" button"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:66
+msgid "After cart contents"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:67
+msgid "After cart table"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:68
+msgid "Before cart collaterals"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:69
+msgid "Inside cart collaterals"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:70
+msgid "Before cart totals"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:71
+msgid "Before cart totals shipping"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:72
+msgid "After cart totals shipping"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:73
+msgid "Before cart totals order total"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:74
+msgid "After cart totals order total"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:75
+msgid "After \"Proceed to checkout\" button"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:76
+msgid "After cart totals"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:77
+msgid "After cart"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:95
+msgid "Empty Cart Button Options"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:100
+#: includes/settings/class-prowc-settings-empty-cart-button.php:24
+msgid "Empty Cart Button"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:101
+msgid "Enable plugin"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:113
+msgid "Position Options"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:115
+#, php-format
+msgid ""
+"Alternatively you can also use %s shortcode or %s PHP code to add \"empty "
+"cart\" button anywhere on your site."
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:123
+msgid "Cart: Button position"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:124
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:142
+#, php-format
+msgid "Possible positions are: %s."
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:134
+msgid "Cart: Button position priority"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:135
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:150
+msgid ""
+"Change this if you want to move the button inside the Position selected "
+"above."
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:141
+msgid "Checkout: Button position"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:149
+msgid "Checkout: Button position priority"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:160
+msgid "Style Options"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:162
+#, php-format
+msgid ""
+"Alternatively, if using %s shortcode, you can style the button with %s "
+"attributes, e.g.: %s"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:171
+msgid "Cart: HTML template"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:172
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:194
+#, php-format
+msgid "HTML template for wrapping the button. Replaced value: %s"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:179
+msgid "Cart: Button HTML class"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:186
+msgid "Cart: Button HTML style"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:193
+msgid "Checkout: HTML template"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:201
+msgid "Checkout: Button HTML class"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:208
+msgid "Checkout: Button HTML style"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:219
+msgid "Label Options"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:224
+msgid "Button label"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:238
+msgid "Confirmation Options"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:239
+msgid ""
+"In this section you can select if you want user to confirm after empty cart "
+"button was pressed."
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:244
+msgid "Confirmation"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:249
+msgid "No confirmation"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:250
+msgid "Confirm by pop up box"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:251
+msgid "Confirm by pop up box (jQuery)"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:255
+msgid "Confirmation text"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:256
+msgid "Ignored if confirmation is not enabled."
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:267
+msgid "Redirect Options"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:268
+msgid ""
+"In this section you can select if you want to redirect the user to another "
+"page after cart is emptied."
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:273
+msgid "Redirect"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:274
+msgid "Enable"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:283
+msgid "Redirect location"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:284
+msgid "Ignored if redirect is not enabled."
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:295
+msgid "Advanced Options"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:300
+msgid "Button type"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:306
+msgid "Hyperlink (Recommended)"
+msgstr ""
+
+#: includes/settings/class-prowc-empty-cart-button-settings-general.php:307
+msgid "Form (Deprecated)"
+msgstr ""
+
+#: includes/settings/class-prowc-settings-empty-cart-button.php:38
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/settings/class-prowc-settings-empty-cart-button.php:43
+msgid "Reset section settings"
+msgstr ""
+
+#: includes/settings/class-prowc-settings-empty-cart-button.php:44
+msgid "Reset"
+msgstr ""
+
+#: includes/settings/class-prowc-settings-empty-cart-button.php:83
+msgid "Your settings have been reset."
+msgstr ""

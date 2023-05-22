@@ -10,7 +10,7 @@ namespace WooVanilla_Expander\Shortcodes;
 /**
  * Undocumented class
  */
-class WVE_Shortcode_Products_Slider extends \WC_Shortcode_Products {
+class WVE_Shortcode_Products_Slider extends WVE_Shortcode_Products {
 
 
 	/**

@@ -16,8 +16,8 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
         dialogbutton: '.tinvwl_button_add'
       },
       redirectTimer: null,
-      onPrepareList: function onPrepareList() {},
-      onGetDialogBox: function onGetDialogBox() {},
+      onPrepareList: function onPrepareList() { },
+      onGetDialogBox: function onGetDialogBox() { },
       onPrepareDialogBox: function onPrepareDialogBox() {
         if (!$('body > .tinv-wishlist').length) {
           $('body').append($('<div>').addClass('tinv-wishlist'));
@@ -27,7 +27,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
       onCreateWishList: function onCreateWishList(wishlist) {
         $(this).append($('<option>').html(wishlist.title).val(wishlist.ID).toggleClass('tinv_in_wishlist', wishlist.in));
       },
-      onSelectWishList: function onSelectWishList() {},
+      onSelectWishList: function onSelectWishList() { },
       onDialogShow: function onDialogShow(modal) {
         $(modal).addClass('tinv-modal-open');
         $(modal).removeClass('ftinvwl-pulse');
@@ -36,7 +36,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
         $(modal).removeClass('tinv-modal-open');
         $(modal).removeClass('ftinvwl-pulse');
       },
-      onInited: function onInited() {},
+      onInited: function onInited() { },
       onClick: function onClick() {
         if ($(this).is('.disabled-add-wishlist')) {
           return false;
@@ -111,7 +111,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
         force_redirect: function force_redirect(url) {
           window.location.href = url;
         },
-        wishlists: function wishlists(wishlist) {},
+        wishlists: function wishlists(wishlist) { },
         msg: function msg(html) {
           if (!html) {
             return false;
@@ -144,8 +144,8 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
         status: function status(_status) {
           $('body').trigger('tinvwl_wishlist_added_status', [this, _status]);
         },
-        removed: function removed(status) {},
-        make_remove: function make_remove(status) {},
+        removed: function removed(status) { },
+        make_remove: function make_remove(status) { },
         wishlists_data: function wishlists_data(value) {
           set_hash(JSON.stringify(value));
         }
@@ -153,15 +153,15 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
     };
     sd.onActionProduct = function (id, name) {
       var data = {
-          form: {},
-          tinv_wishlist_id: id || '',
-          tinv_wishlist_name: name || '',
-          product_type: $(this).attr('data-tinv-wl-producttype'),
-          product_id: $(this).attr('data-tinv-wl-product') || 0,
-          product_variation: $(this).attr('data-tinv-wl-productvariation') || 0,
-          product_action: $(this).attr('data-tinv-wl-action') || 'addto',
-          redirect: window.location.href
-        },
+        form: {},
+        tinv_wishlist_id: id || '',
+        tinv_wishlist_name: name || '',
+        product_type: $(this).attr('data-tinv-wl-producttype'),
+        product_id: $(this).attr('data-tinv-wl-product') || 0,
+        product_variation: $(this).attr('data-tinv-wl-productvariation') || 0,
+        product_action: $(this).attr('data-tinv-wl-action') || 'addto',
+        redirect: window.location.href
+      },
         a = this,
         formEl = [],
         formData = new FormData();

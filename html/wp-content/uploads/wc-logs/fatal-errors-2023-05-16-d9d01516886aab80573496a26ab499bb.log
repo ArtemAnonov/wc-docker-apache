@@ -55,3 +55,76 @@ Stack trace:
 #12 {main}
   thrown в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-slider-product.php на строке 30
 
+2023-05-16T15:16:41+00:00 CRITICAL Uncaught Error: Call to a member function get_variation() on string in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php:144
+Stack trace:
+#0 [internal function]: {closure}('net')
+#1 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(149): array_filter(Array, Object(Closure))
+#2 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-variation-product.php(33): woovanilla_template_product_attributes(Array, ',')
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/ti-wishlist.php(77): wc_get_template('content-variati...')
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#6 /var/www/html/wp-content/plugins/ti-woocommerce-wishlist/tinv-wishlists-function.php(213): wc_get_template('ti-wishlist.php', Array, '')
+#7 /var/www/html/wp-content/plugins/ti-woocommerce-wishlist/public/wishlist/view.class.php(502): tinv_wishlist_template('ti-wishlist.php', Array)
+#8 /var/www/html/wp-content/plugins/ti-woocommerce-wishlist/public/wishlist/view.class.php(628): TInvWL_Public_Wishlist_View->htmloutput(Array)
+#9 /var/www/html/wp-content/plugins/ti-woocommerce-wishlist/tinv-wishlists-function.php(605): TInvWL_Public_Wishlist_View->shortcode(Array)
+#10 /var/www/html/wp-includes/shortcodes.php(355): tinvwl_shortcode_view('', '', 'ti_wishlistsvie...')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 /var/www/html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(ti_wis...', 'do_shortcode_ta...', ' [ti_wishlistsv...')
+#13 /var/www/html/wp-content/plugins/ti-woocommerce-wishlist/public/tinvwl.class.php(712): do_shortcode(' [ti_wishlistsv...')
+#14 /var/www/html/wp-content/themes/woo-vanilla/template-wishlist.php(17): TInvWL_Public_TInvWL->wishlist_content()
+#15 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#16 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#17 /var/www/html/index.php(17): require('/var/www/html/w...')
+#18 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 144
+
+2023-05-16T15:17:08+00:00 CRITICAL Uncaught Error: Call to a member function get_variation() on string in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php:144
+Stack trace:
+#0 [internal function]: {closure}('net')
+#1 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(149): array_filter(Array, Object(Closure))
+#2 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-variation-product.php(33): woovanilla_template_product_attributes(Array, ',')
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/ti-wishlist.php(77): wc_get_template('content-variati...')
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#6 /var/www/html/wp-content/plugins/ti-woocommerce-wishlist/tinv-wishlists-function.php(213): wc_get_template('ti-wishlist.php', Array, '')
+#7 /var/www/html/wp-content/plugins/ti-woocommerce-wishlist/public/wishlist/view.class.php(502): tinv_wishlist_template('ti-wishlist.php', Array)
+#8 /var/www/html/wp-content/plugins/ti-woocommerce-wishlist/public/wishlist/view.class.php(628): TInvWL_Public_Wishlist_View->htmloutput(Array)
+#9 /var/www/html/wp-content/plugins/ti-woocommerce-wishlist/tinv-wishlists-function.php(605): TInvWL_Public_Wishlist_View->shortcode(Array)
+#10 /var/www/html/wp-includes/shortcodes.php(355): tinvwl_shortcode_view('', '', 'ti_wishlistsvie...')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 /var/www/html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(ti_wis...', 'do_shortcode_ta...', ' [ti_wishlistsv...')
+#13 /var/www/html/wp-content/plugins/ti-woocommerce-wishlist/public/tinvwl.class.php(712): do_shortcode(' [ti_wishlistsv...')
+#14 /var/www/html/wp-content/themes/woo-vanilla/template-wishlist.php(17): TInvWL_Public_TInvWL->wishlist_content()
+#15 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#16 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#17 /var/www/html/index.php(17): require('/var/www/html/w...')
+#18 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 144
+
+2023-05-16T15:19:12+00:00 CRITICAL Uncaught Error: Call to a member function get_variation() on string in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php:144
+Stack trace:
+#0 [internal function]: {closure}('net')
+#1 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(149): array_filter(Array, Object(Closure))
+#2 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-variation-product.php(33): woovanilla_template_product_attributes(Array, ',')
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/ti-wishlist.php(77): wc_get_template('content-variati...')
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#6 /var/www/html/wp-content/plugins/ti-woocommerce-wishlist/tinv-wishlists-function.php(213): wc_get_template('ti-wishlist.php', Array, '')
+#7 /var/www/html/wp-content/plugins/ti-woocommerce-wishlist/public/wishlist/view.class.php(502): tinv_wishlist_template('ti-wishlist.php', Array)
+#8 /var/www/html/wp-content/plugins/ti-woocommerce-wishlist/public/wishlist/view.class.php(628): TInvWL_Public_Wishlist_View->htmloutput(Array)
+#9 /var/www/html/wp-content/plugins/ti-woocommerce-wishlist/tinv-wishlists-function.php(605): TInvWL_Public_Wishlist_View->shortcode(Array)
+#10 /var/www/html/wp-includes/shortcodes.php(355): tinvwl_shortcode_view('', '', 'ti_wishlistsvie...')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 /var/www/html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(ti_wis...', 'do_shortcode_ta...', ' [ti_wishlistsv...')
+#13 /var/www/html/wp-content/plugins/ti-woocommerce-wishlist/public/tinvwl.class.php(712): do_shortcode(' [ti_wishlistsv...')
+#14 /var/www/html/wp-content/themes/woo-vanilla/template-wishlist.php(17): TInvWL_Public_TInvWL->wishlist_content()
+#15 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#16 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#17 /var/www/html/index.php(17): require('/var/www/html/w...')
+#18 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 144
+
+2023-05-16T18:58:33+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" в /var/www/html/wp-content/themes/woo-vanilla/templates/side-cart-woocommerce/xoo-wsc-body.php на строке 23
+
+2023-05-16T20:30:07+00:00 CRITICAL syntax error, unexpected token ">" в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-blocks/wv-header/wv-header-mobile-menu.php на строке 36
+

@@ -1,0 +1,46 @@
+2023-05-20T21:47:32+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_cart_round_discount(), 0 passed in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/checkout/review-order.php on line 20 and exactly 2 expected in /var/www/html/wp-content/plugins/woocommerce/includes/wc-cart-functions.php:382
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/checkout/review-order.php(20): wc_cart_round_discount()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2360): wc_get_template('checkout/review...', Array)
+#3 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/checkout/form-checkout.php(25): woocommerce_order_review()
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#8 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 /var/www/html/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 /var/www/html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#12 /var/www/html/wp-content/themes/woo-vanilla/template-checkout.php(32): do_shortcode('[woocommerce_ch...')
+#13 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#14 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#15 /var/www/html/index.php(17): require('/var/www/html/w...')
+#16 {main}
+  thrown в /var/www/html/wp-content/plugins/woocommerce/includes/wc-cart-functions.php на строке 382
+
+2023-05-20T22:06:24+00:00 CRITICAL Uncaught TypeError: Illegal offset type in isset or empty in /var/www/html/wp-includes/pomo/plural-forms.php:244
+Stack trace:
+#0 /var/www/html/wp-includes/pomo/translations.php(214): Plural_Forms->get(Array)
+#1 /var/www/html/wp-includes/pomo/mo.php(344): Gettext_Translations->gettext_select_plural_form(Array)
+#2 /var/www/html/wp-includes/pomo/translations.php(148): MO->select_plural_form(Array)
+#3 /var/www/html/wp-includes/l10n.php(477): Translations->translate_plural('%s product', '%s products', Array)
+#4 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/checkout/review-order.php(22): _n('%s product', '%s products', Array, 'woocommerce')
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2360): wc_get_template('checkout/review...', Array)
+#7 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/checkout/form-checkout.php(25): woocommerce_order_review()
+#8 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#9 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#11 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#12 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#13 /var/www/html/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#14 [internal function]: do_shortcode_tag(Array)
+#15 /var/www/html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#16 /var/www/html/wp-content/themes/woo-vanilla/template-checkout.php(32): do_shortcode('[woocommerce_ch...')
+#17 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#18 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#19 /var/www/html/index.php(17): require('/var/www/html/w...')
+#20 {main}
+  thrown в /var/www/html/wp-includes/pomo/plural-forms.php на строке 244
+

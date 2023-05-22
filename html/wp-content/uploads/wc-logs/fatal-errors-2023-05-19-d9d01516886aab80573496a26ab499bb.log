@@ -1,0 +1,41 @@
+2023-05-19T10:09:01+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /var/www/html/wp-content/plugins/ti-woocommerce-wishlist/public/wishlist/view.class.php:179
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): TInvWL_Public_Wishlist_View->external_text(NULL, NULL, NULL)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-content/themes/woo-vanilla/templates/side-cart-woocommerce/global/body/product.php(58): apply_filters('tinvwl_wishlist...', NULL, NULL, NULL)
+#3 /var/www/html/wp-content/plugins/side-cart-woocommerce/includes/xoo-framework/class-xoo-helper.php(57): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/themes/woo-vanilla/templates/side-cart-woocommerce/xoo-wsc-body.php(84): Xoo_Helper->get_template('global/body/pro...', Array)
+#5 /var/www/html/wp-content/plugins/side-cart-woocommerce/includes/xoo-framework/class-xoo-helper.php(57): include('/var/www/html/w...')
+#6 /var/www/html/wp-content/themes/woo-vanilla/templates/side-cart-woocommerce/xoo-wsc-container.php(24): Xoo_Helper->get_template('xoo-wsc-body.ph...')
+#7 /var/www/html/wp-content/plugins/side-cart-woocommerce/includes/xoo-framework/class-xoo-helper.php(57): include('/var/www/html/w...')
+#8 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-offcanvases/wv-offcanvas-cart.php(14): Xoo_Helper->get_template('xoo-wsc-contain...')
+#9 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#10 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-offcanvases/wv-offcanvases.php(18): wc_get_template('wv-offcanvases/...')
+#11 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#12 /var/www/html/wp-content/themes/woo-vanilla/footer.php(61): wc_get_template('wv-offcanvases/...')
+#13 /var/www/html/wp-includes/template.php(783): require_once('/var/www/html/w...')
+#14 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#15 /var/www/html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#16 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(33): get_footer()
+#17 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#18 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#19 /var/www/html/index.php(17): require('/var/www/html/w...')
+#20 {main}
+  thrown в /var/www/html/wp-content/plugins/ti-woocommerce-wishlist/public/wishlist/view.class.php на строке 179
+
+2023-05-19T17:48:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wv_test(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 310 and exactly 4 expected in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php:155
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): wv_test(Array)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-content/plugins/ti-woocommerce-wishlist/public/addtowishlist.class.php(427): apply_filters('tinvwl_addtowis...', Array, Array, Array, Object(WC_Product_Variable))
+#3 /var/www/html/wp-includes/class-wp-hook.php(308): TInvWL_Public_AddToWishlist->add_to_wishlist('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-settings.php(646): do_action('wp_loaded')
+#7 /var/www/html/wp-config.php(176): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#10 /var/www/html/index.php(17): require('/var/www/html/w...')
+#11 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 155
+

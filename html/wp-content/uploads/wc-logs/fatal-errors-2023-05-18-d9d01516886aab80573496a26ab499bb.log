@@ -1,0 +1,2 @@
+2023-05-18T09:51:58+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" в /var/www/html/wp-content/themes/woo-vanilla/templates/side-cart-woocommerce/global/body/product.php на строке 62
+
