@@ -164,12 +164,15 @@ if ( $configExtra = getenv_docker( 'WORDPRESS_CONFIG_EXTRA', '' ) ) {
 
 define( 'SCRIPT_DEBUG', true );
 
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
+
+
 
 
 /** Sets up WordPress vars and included files. */

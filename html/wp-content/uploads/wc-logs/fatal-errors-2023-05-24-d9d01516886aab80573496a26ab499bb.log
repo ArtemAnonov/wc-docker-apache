@@ -1,0 +1,186 @@
+2023-05-24T10:26:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function woovanilla_output_content_wrapper(), 0 passed in /var/www/html/wp-content/themes/woo-vanilla/woocommerce/archive-product.php on line 13 and exactly 1 expected in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php:506
+Stack trace:
+#0 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/archive-product.php(13): woovanilla_output_content_wrapper()
+#1 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#2 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#3 /var/www/html/index.php(17): require('/var/www/html/w...')
+#4 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php на строке 506
+
+2023-05-24T10:44:02+00:00 CRITICAL syntax error, unexpected token "**" в /var/www/html/wp-content/themes/woo-vanilla/woocommerce/archive-product.php на строке 53
+
+2023-05-24T23:49:09+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function test(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 310 and exactly 3 expected in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php:165
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): test('<del aria-hidde...')
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('<del aria-hidde...', Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php(1280): apply_filters('woocommerce_for...', '<del aria-hidde...', 50000, 45000)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1875): wc_format_sale_price(50000, 45000)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(382): WC_Product->get_price_html()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(312): WC_Product_Variable->get_available_variation(Object(WC_Product_Variation))
+#6 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(198): WC_Product_Variable->get_available_variations()
+#7 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-slider-product.php(35): woovanilla_variable_add_to_cart()
+#8 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#9 /var/www/html/wp-content/plugins/woovanilla-expander/includes/shortcodes/class-wve-shortcode-products-slider.php(84): wc_get_template('content-slider-...')
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WooVanilla_Expander\Shortcodes\WVE_Shortcode_Products_Slider->product_loop()
+#11 /var/www/html/wp-content/plugins/woovanilla-expander/includes/class-wve-shortcodes.php(71): WC_Shortcode_Products->get_content()
+#12 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(51): WooVanilla_Expander\WVE_Shortcodes::products_slider(Array, NULL, 'products_slider')
+#13 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(67): woovanilla_do_shortcode('products_slider', Array)
+#14 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/wv-sliders-home.php(47): woovanilla_slider_products(Array, '\xD0\x91\xD1\x83\xD0\xBA\xD0\xB5\xD1\x82 \xD0\xBD\xD0\xB5...', 'products_slider', '')
+#15 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#16 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(18): wc_get_template('wv-sections/wv-...')
+#17 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#18 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#19 /var/www/html/index.php(17): require('/var/www/html/w...')
+#20 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 165
+
+2023-05-24T23:49:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function test(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 310 and exactly 3 expected in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php:165
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): test('<del aria-hidde...')
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('<del aria-hidde...', Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php(1280): apply_filters('woocommerce_for...', '<del aria-hidde...', 50000, 45000)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1875): wc_format_sale_price(50000, 45000)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(382): WC_Product->get_price_html()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(312): WC_Product_Variable->get_available_variation(Object(WC_Product_Variation))
+#6 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(198): WC_Product_Variable->get_available_variations()
+#7 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-slider-product.php(35): woovanilla_variable_add_to_cart()
+#8 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#9 /var/www/html/wp-content/plugins/woovanilla-expander/includes/shortcodes/class-wve-shortcode-products-slider.php(84): wc_get_template('content-slider-...')
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WooVanilla_Expander\Shortcodes\WVE_Shortcode_Products_Slider->product_loop()
+#11 /var/www/html/wp-content/plugins/woovanilla-expander/includes/class-wve-shortcodes.php(71): WC_Shortcode_Products->get_content()
+#12 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(51): WooVanilla_Expander\WVE_Shortcodes::products_slider(Array, NULL, 'products_slider')
+#13 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(67): woovanilla_do_shortcode('products_slider', Array)
+#14 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/wv-sliders-home.php(47): woovanilla_slider_products(Array, '\xD0\x91\xD1\x83\xD0\xBA\xD0\xB5\xD1\x82 \xD0\xBD\xD0\xB5...', 'products_slider', '')
+#15 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#16 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(18): wc_get_template('wv-sections/wv-...')
+#17 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#18 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#19 /var/www/html/index.php(17): require('/var/www/html/w...')
+#20 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 165
+
+2023-05-24T23:50:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function test(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 310 and exactly 3 expected in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php:165
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): test('<del aria-hidde...')
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('<del aria-hidde...', Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php(1280): apply_filters('woocommerce_for...', '<del aria-hidde...', 50000, 45000)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1875): wc_format_sale_price(50000, 45000)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(382): WC_Product->get_price_html()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(312): WC_Product_Variable->get_available_variation(Object(WC_Product_Variation))
+#6 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(198): WC_Product_Variable->get_available_variations()
+#7 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-slider-product.php(35): woovanilla_variable_add_to_cart()
+#8 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#9 /var/www/html/wp-content/plugins/woovanilla-expander/includes/shortcodes/class-wve-shortcode-products-slider.php(84): wc_get_template('content-slider-...')
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WooVanilla_Expander\Shortcodes\WVE_Shortcode_Products_Slider->product_loop()
+#11 /var/www/html/wp-content/plugins/woovanilla-expander/includes/class-wve-shortcodes.php(71): WC_Shortcode_Products->get_content()
+#12 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(51): WooVanilla_Expander\WVE_Shortcodes::products_slider(Array, NULL, 'products_slider')
+#13 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(67): woovanilla_do_shortcode('products_slider', Array)
+#14 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/wv-sliders-home.php(47): woovanilla_slider_products(Array, '\xD0\x91\xD1\x83\xD0\xBA\xD0\xB5\xD1\x82 \xD0\xBD\xD0\xB5...', 'products_slider', '')
+#15 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#16 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(18): wc_get_template('wv-sections/wv-...')
+#17 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#18 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#19 /var/www/html/index.php(17): require('/var/www/html/w...')
+#20 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 165
+
+2023-05-24T23:51:22+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function test(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 310 and exactly 3 expected in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php:165
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): test('<del aria-hidde...')
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('<del aria-hidde...', Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php(1280): apply_filters('woocommerce_for...', '<del aria-hidde...', 50000, 45000)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1875): wc_format_sale_price(50000, 45000)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(382): WC_Product->get_price_html()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(312): WC_Product_Variable->get_available_variation(Object(WC_Product_Variation))
+#6 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(198): WC_Product_Variable->get_available_variations()
+#7 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-slider-product.php(35): woovanilla_variable_add_to_cart()
+#8 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#9 /var/www/html/wp-content/plugins/woovanilla-expander/includes/shortcodes/class-wve-shortcode-products-slider.php(84): wc_get_template('content-slider-...')
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WooVanilla_Expander\Shortcodes\WVE_Shortcode_Products_Slider->product_loop()
+#11 /var/www/html/wp-content/plugins/woovanilla-expander/includes/class-wve-shortcodes.php(71): WC_Shortcode_Products->get_content()
+#12 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(51): WooVanilla_Expander\WVE_Shortcodes::products_slider(Array, NULL, 'products_slider')
+#13 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(67): woovanilla_do_shortcode('products_slider', Array)
+#14 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/wv-sliders-home.php(47): woovanilla_slider_products(Array, '\xD0\x91\xD1\x83\xD0\xBA\xD0\xB5\xD1\x82 \xD0\xBD\xD0\xB5...', 'products_slider', '')
+#15 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#16 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(18): wc_get_template('wv-sections/wv-...')
+#17 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#18 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#19 /var/www/html/index.php(17): require('/var/www/html/w...')
+#20 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 165
+
+2023-05-24T23:51:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function test(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 310 and exactly 3 expected in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php:165
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): test('<del aria-hidde...')
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('<del aria-hidde...', Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php(1280): apply_filters('woocommerce_for...', '<del aria-hidde...', 50000, 45000)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1875): wc_format_sale_price(50000, 45000)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(382): WC_Product->get_price_html()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(312): WC_Product_Variable->get_available_variation(Object(WC_Product_Variation))
+#6 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(198): WC_Product_Variable->get_available_variations()
+#7 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-slider-product.php(35): woovanilla_variable_add_to_cart()
+#8 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#9 /var/www/html/wp-content/plugins/woovanilla-expander/includes/shortcodes/class-wve-shortcode-products-slider.php(84): wc_get_template('content-slider-...')
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WooVanilla_Expander\Shortcodes\WVE_Shortcode_Products_Slider->product_loop()
+#11 /var/www/html/wp-content/plugins/woovanilla-expander/includes/class-wve-shortcodes.php(71): WC_Shortcode_Products->get_content()
+#12 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(51): WooVanilla_Expander\WVE_Shortcodes::products_slider(Array, NULL, 'products_slider')
+#13 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(67): woovanilla_do_shortcode('products_slider', Array)
+#14 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/wv-sliders-home.php(47): woovanilla_slider_products(Array, '\xD0\x91\xD1\x83\xD0\xBA\xD0\xB5\xD1\x82 \xD0\xBD\xD0\xB5...', 'products_slider', '')
+#15 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#16 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(18): wc_get_template('wv-sections/wv-...')
+#17 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#18 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#19 /var/www/html/index.php(17): require('/var/www/html/w...')
+#20 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 165
+
+2023-05-24T23:52:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wvtest(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 310 and exactly 3 expected in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php:165
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): wvtest('<del aria-hidde...')
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('<del aria-hidde...', Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php(1280): apply_filters('woocommerce_for...', '<del aria-hidde...', 50000, 45000)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1875): wc_format_sale_price(50000, 45000)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(382): WC_Product->get_price_html()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(312): WC_Product_Variable->get_available_variation(Object(WC_Product_Variation))
+#6 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(198): WC_Product_Variable->get_available_variations()
+#7 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-slider-product.php(35): woovanilla_variable_add_to_cart()
+#8 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#9 /var/www/html/wp-content/plugins/woovanilla-expander/includes/shortcodes/class-wve-shortcode-products-slider.php(84): wc_get_template('content-slider-...')
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WooVanilla_Expander\Shortcodes\WVE_Shortcode_Products_Slider->product_loop()
+#11 /var/www/html/wp-content/plugins/woovanilla-expander/includes/class-wve-shortcodes.php(71): WC_Shortcode_Products->get_content()
+#12 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(51): WooVanilla_Expander\WVE_Shortcodes::products_slider(Array, NULL, 'products_slider')
+#13 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(67): woovanilla_do_shortcode('products_slider', Array)
+#14 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/wv-sliders-home.php(47): woovanilla_slider_products(Array, '\xD0\x91\xD1\x83\xD0\xBA\xD0\xB5\xD1\x82 \xD0\xBD\xD0\xB5...', 'products_slider', '')
+#15 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#16 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(18): wc_get_template('wv-sections/wv-...')
+#17 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#18 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#19 /var/www/html/index.php(17): require('/var/www/html/w...')
+#20 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 165
+
+2023-05-24T23:53:03+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wvtest(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 310 and exactly 3 expected in /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php:165
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): wvtest('<del aria-hidde...')
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('<del aria-hidde...', Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php(1280): apply_filters('woocommerce_for...', '<del aria-hidde...', 50000, 45000)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1875): wc_format_sale_price(50000, 45000)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(382): WC_Product->get_price_html()
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(312): WC_Product_Variable->get_available_variation(Object(WC_Product_Variation))
+#6 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(198): WC_Product_Variable->get_available_variations()
+#7 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/content-slider-product.php(35): woovanilla_variable_add_to_cart()
+#8 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#9 /var/www/html/wp-content/plugins/woovanilla-expander/includes/shortcodes/class-wve-shortcode-products-slider.php(84): wc_get_template('content-slider-...')
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WooVanilla_Expander\Shortcodes\WVE_Shortcode_Products_Slider->product_loop()
+#11 /var/www/html/wp-content/plugins/woovanilla-expander/includes/class-wve-shortcodes.php(71): WC_Shortcode_Products->get_content()
+#12 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-functions.php(51): WooVanilla_Expander\WVE_Shortcodes::products_slider(Array, NULL, 'products_slider')
+#13 /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-functions.php(67): woovanilla_do_shortcode('products_slider', Array)
+#14 /var/www/html/wp-content/themes/woo-vanilla/woocommerce/wv-sections/wv-sliders-home.php(47): woovanilla_slider_products(Array, '\xD0\x91\xD1\x83\xD0\xBA\xD0\xB5\xD1\x82 \xD0\xBD\xD0\xB5...', 'products_slider', '')
+#15 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#16 /var/www/html/wp-content/themes/woo-vanilla/template-homepage.php(18): wc_get_template('wv-sections/wv-...')
+#17 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#18 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#19 /var/www/html/index.php(17): require('/var/www/html/w...')
+#20 {main}
+  thrown в /var/www/html/wp-content/themes/woo-vanilla/inc/woovanilla-template-hooks.php на строке 165
+

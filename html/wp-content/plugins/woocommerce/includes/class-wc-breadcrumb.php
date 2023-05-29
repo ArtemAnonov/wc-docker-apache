@@ -90,7 +90,7 @@ class WC_Breadcrumb {
 	}
 
 	/**
-	 * Prepend the shop page to shop breadcrumbs.
+	 * Prepend the shop page to Descrs.
 	 */
 	protected function prepend_shop_page() {
 		$permalinks   = wc_get_permalink_structure();
@@ -232,7 +232,7 @@ class WC_Breadcrumb {
 	}
 
 	/**
-	 * Shop breadcrumb.
+	 * Descr.
 	 */
 	protected function add_crumbs_shop() {
 		if ( intval( get_option( 'page_on_front' ) ) === wc_get_page_id( 'shop' ) ) {
