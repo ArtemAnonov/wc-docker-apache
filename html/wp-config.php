@@ -133,8 +133,8 @@ define( 'FS_METHOD', 'direct' );
  * reduces DB calls and increase performance
  */
 
-define( 'WP_HOME', getenv_docker( 'WP_HOME', '' ) );
-define( 'WP_SITEURL', getenv_docker( 'WP_SITEURL', '' ) );
+define( 'WP_HOME', getenv_docker( 'WP_HOME', 'http://localhost' ) );
+define( 'WP_SITEURL', getenv_docker( 'WP_SITEURL', 'http://localhost' ) );
 
 /**
  * Manage Post revisions and autosave
